@@ -602,7 +602,33 @@ void AES::executeDecryptAES(string filePath){
 
            }
        }
-       image.fromPixelMatrix(bmp);
+//       image.fromPixelMatrix(bmp);
+     }
+     int originalLen =sizeof(std::vector<int>) + (sizeof(int) *redString.size());
+    int paddedMessageLen = originalLen;
+
+     if ((paddedMessageLen % 16) != 0) {
+
+         paddedMessageLen = (paddedMessageLen / 16 + 1) * 16;
+         cout<<"padded: "<<paddedMessageLen<<endl;
+     }
+     cout<<"original: "<<originalLen;
+
+     vector<unsigned char> redPaddedMessage(paddedMessageLen);
+     vector<unsigned char> greenPaddedMessage(paddedMessageLen);
+     vector<unsigned char> bluePaddedMessage(paddedMessageLen);
+
+     for (int i = 0; i < paddedMessageLen; i++) {
+         if (i >= originalLen) {
+             redPaddedMessage[i] = 0;
+             greenPaddedMessage[i] = 0;
+             bluePaddedMessage[i]= 0;
+         }
+         else {
+             redPaddedMessage[i] = redString[i];
+             greenPaddedMessage[i] = greenString[i];
+             bluePaddedMessage[i]= blueString[i];
+         }
      }
 
 
@@ -615,9 +641,9 @@ void AES::executeDecryptAES(string filePath){
           0x0b, 0x0c, 0x0d, 0x0e, 0x0f, 0x10, 0x11, 0x12, 0x13, 0x14, 0x15,
           0x16, 0x17, 0x18, 0x19, 0x1a, 0x1b, 0x1c, 0x1d, 0x1e, 0x1f};
      AES aes(AESKeyLength::AES_256);
-     vector<unsigned char> encryptedRed = aes.EncryptCBC(redString,key,iv);
-     vector<unsigned char> encryptedGreen = aes.EncryptCBC(greenString,key,iv);
-     vector<unsigned char> encryptedBlue = aes.EncryptCBC(blueString,key,iv);
+     vector<unsigned char> encryptedRed = aes.DecryptCBC(redPaddedMessage,key,iv);
+     vector<unsigned char> encryptedGreen = aes.DecryptCBC(greenPaddedMessage,key,iv);
+     vector<unsigned char> encryptedBlue = aes.DecryptCBC(bluePaddedMessage,key,iv);
      int tmp = 0;
      for(int i =1 ; i<= row-1;i++){
          for(int j=1 ; j<=column-1;j++){
@@ -630,7 +656,7 @@ void AES::executeDecryptAES(string filePath){
          }
      }
       image.fromPixelMatrix(bmp);
-      image.save("/Users/gayuhkautaman/Documents/code/cpp/KIJProject/example.bmp");
+      image.save("/Users/gayuhkautaman/Documents/code/cpp/KIJProject/decrypted.bmp");
 
 }
 

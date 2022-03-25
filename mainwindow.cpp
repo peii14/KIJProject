@@ -61,5 +61,11 @@ void MainWindow::actionBtnClicked(){
         QPixmap pix(filePath);
         ui->label_pic->setPixmap(pix.scaled(QSize(300,300), Qt::KeepAspectRatio));
 
+        AES aes;
+        aes.executeDecryptAES(filePath.toStdString().c_str());
+
+        QString filePathDecrypted = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/decrypted.bmp";
+        QPixmap pixDec(filePathDecrypted);
+        ui->encryptedPic->setPixmap(pixDec.scaled(QSize(300,300), Qt::KeepAspectRatio));
     }
 }
