@@ -1,15 +1,13 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
-
+#include "aes.h"
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    filePath = "/Users/gayuhkautaman/Documents/code/cpp/AES-KIJ/dams.bmp";
-    QPixmap pix(filePath);
-    ui->label_pic->setPixmap(pix.scaled(QSize(300,300), Qt::KeepAspectRatio));
+
 
     setWindowTitle(tr("AES"));
     resize(1000, 500);
@@ -47,12 +45,21 @@ void MainWindow::recieverRoleClicked(){
 void MainWindow::actionBtnClicked(){
     if(ui->actionPushBtn->text() == "Encrypt"){
 //        Encrypt
-    NativeAesEncrypt NA;
-    NA.ExecuteEncrypt(filePath.toStdString().c_str());
+        filePath = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/dams.bmp";
+        QPixmap pix1(filePath);
+        ui->label_pic->setPixmap(pix1.scaled(QSize(300,300), Qt::KeepAspectRatio));
+
+        AES aes;
+        aes.executeAES(filePath.toStdString().c_str());
+
+        QString filePathEncrypted = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/example.bmp";
+        QPixmap pix(filePathEncrypted);
+        ui->encryptedPic->setPixmap(pix.scaled(QSize(300,300), Qt::KeepAspectRatio));
     }else{
 //        Decrypt
-     NativeAesDecrypt DA;
-     DA.executeDecrypt();
+        filePath = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/example.bmp";
+        QPixmap pix(filePath);
+        ui->label_pic->setPixmap(pix.scaled(QSize(300,300), Qt::KeepAspectRatio));
 
     }
 }

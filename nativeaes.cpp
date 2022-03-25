@@ -284,18 +284,18 @@ void NativeAesEncrypt::ExecuteEncrypt(string filePath){
 //        cout << " ";
 //    }
 
-    cout << endl;
-    ofstream redfile("/Users/gayuhkautaman/Documents/code/cpp/AES-KIJ/encrypted_RED_file.txt");
-    ofstream greenfile("/Users/gayuhkautaman/Documents/code/cpp/AES-KIJ/encrypted_GREEN_file.txt");
-    ofstream bluefile("/Users/gayuhkautaman/Documents/code/cpp/AES-KIJ/encrypted_BLUE_file.txt");
-    for (int i = 0; i < paddedMessageLen; i++) {
-       redfile << redEncryptedMessage;
-       greenfile << greenEncryptedMessage;
-       bluefile << blueEncryptedMessage;
-    }
-    redfile.close();
-    greenfile.close();
-    bluefile.close();
+//    cout << endl;
+//    ofstream redfile("/Users/gayuhkautaman/Documents/code/cpp/AES-KIJ/encrypted_RED_file.txt");
+//    ofstream greenfile("/Users/gayuhkautaman/Documents/code/cpp/AES-KIJ/encrypted_GREEN_file.txt");
+//    ofstream bluefile("/Users/gayuhkautaman/Documents/code/cpp/AES-KIJ/encrypted_BLUE_file.txt");
+//    for (int i = 0; i < paddedMessageLen; i++) {
+//       redfile << redEncryptedMessage;
+//       greenfile << greenEncryptedMessage;
+//       bluefile << blueEncryptedMessage;
+//    }
+//    redfile.close();
+//    greenfile.close();
+//    bluefile.close();
     cout << "Wrote encrypted message to encrypted_file" << endl;
 
     // Free memory

@@ -44,6 +44,8 @@ set(PROJECT_SOURCES
         nativeaesdecrypt.h
         bitmap.cpp
         bitmap.h
+        aes.cpp
+        aes.h
 #        server.cpp
 #        server.h
 )
