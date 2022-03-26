@@ -138,9 +138,9 @@ void NativeAesDecrypt::executeDecrypt(){
     // Read in the message from message.aes
         string redmgstr,greenmgstr,bluemsgstr;
         ifstream redfile,greenfile,bluefile;
-        redfile.open("/Users/gayuhkautaman/Documents/code/cpp/AES-KIJ/encrypted_RED_file.txt", ios::in | ios::binary);
-        greenfile.open("/Users/gayuhkautaman/Documents/code/cpp/AES-KIJ/encrypted_GREEN_file.txt", ios::in | ios::binary);
-        bluefile.open("/Users/gayuhkautaman/Documents/code/cpp/AES-KIJ/encrypted_BLUE_file.txt", ios::in | ios::binary);
+        redfile.open("D:\\coding\\QT_Projects\\KIJProject\\encrypted_RED_file.txt", ios::in | ios::binary);
+        greenfile.open("D:\\coding\\QT_Projects\\KIJProject\\encrypted_GREEN_file.txt", ios::in | ios::binary);
+        bluefile.open("D:\\coding\\QT_Projects\\KIJProject\\encrypted_BLUE_file.txt", ios::in | ios::binary);
 
         if (redfile.is_open()){
             getline(redfile, redmgstr); // The first line of file is the message
@@ -209,28 +209,28 @@ void NativeAesDecrypt::executeDecrypt(){
         Bitmap decImage;
         vector <vector <Pixel>> decBMP;
         Pixel rgbResult;
-        decImage.open("/Users/gayuhkautaman/Documents/code/cpp/AES-KIJ/dams.bmp");
+        decImage.open("D:\\coding\\QT_Projects\\KIJProject\\stroberi.bmp");
         decBMP = decImage.toPixelMatrix();
         vector<string> red = explode(reinterpret_cast<char*>(reddecryptedMessage), ',');
-//        vector<string> green = explode(reinterpret_cast<char*>(greendecryptedMessage), ',');
-//        vector<string> blue = explode(reinterpret_cast<char*>(bluedecryptedMessage), ',');
+        vector<string> green = explode(reinterpret_cast<char*>(greendecryptedMessage), ',');
+        vector<string> blue = explode(reinterpret_cast<char*>(bluedecryptedMessage), ',');
         int dats = 0;
         cout<<reddecryptedMessage<<endl;
-//         cout<<green.size()<<endl;
-//          cout<<blue.size()<<endl;
-        for(int i =0 ; i<= 899;i++){
-            for(int j=0 ; j<=1599;j++){
+         cout<<green.size()<<endl;
+          cout<<blue.size()<<endl;
+        for(int i =0 ; i<= 31;i++){
+            for(int j=0 ; j<=31;j++){
                 rgbResult = decBMP[i][j];
-                rgbResult.green = 0;
-//                rgbResult.red = atoi( red[dats].c_str() );
-//                rgbResult.blue = atoi( green[dats].c_str() );
-//                rgbResult.green = atoi( blue[dats].c_str() );
+//                rgbResult.green = 0;
+                rgbResult.red = atoi( red[dats].c_str() );
+                rgbResult.blue = atoi( green[dats].c_str() );
+                rgbResult.green = atoi( blue[dats].c_str() );
                decBMP[i][j] = rgbResult;
                dats++;
             }
         }
         decImage.fromPixelMatrix(decBMP);
-        decImage.save("/Users/gayuhkautaman/Documents/code/cpp/AES-KIJ/DECRYPT.bmp");
+        decImage.save("D:\\coding\\QT_Projects\\KIJProject\\result.bmp");
 
 }
 
