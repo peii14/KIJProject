@@ -9,12 +9,17 @@
 #include <bitmap.h>
 #include <fstream>
 #include <sstream>
+#include <sys/time.h>
+#include <ctime>
 enum class AESKeyLength { AES_128, AES_192, AES_256 };
 
 using namespace std;
 
 class AES {
+
  private:
+  unsigned int megabytesCount = 10;
+  const unsigned int MICROSECONDS = 1000000;
   int row, column;
   int Nb;
   int Nk;
@@ -116,6 +121,8 @@ class AES {
   void executeAES(std::string filePath);
   void executeDecryptAES(string filePath);
   void write(vector<unsigned char> v,string fileName);
+  unsigned long getMicroseconds();
+  double speed;
 };
 
 const unsigned char sbox[16][16] = {

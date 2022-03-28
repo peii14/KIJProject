@@ -1,4 +1,4 @@
-#include "AES.h"
+#include "aes.h"
 
 AES::AES(AESKeyLength keyLength) {
   this->Nb = 4;
@@ -519,7 +519,7 @@ void AES::executeAES(std::string filePath){
 //     padding
      int originalLen =sizeof(std::vector<int>) + (sizeof(int) *redString.size());
     int paddedMessageLen = originalLen;
-    write(redString,"/Users/gayuhkautaman/Documents/code/cpp/KIJProject/redstring.txt");
+//    write(redString,"/Users/gayuhkautaman/Documents/code/cpp/KIJProject/redstring.txt");
 
     if ((paddedMessageLen % 16) != 0) {
 
@@ -554,13 +554,23 @@ void AES::executeAES(std::string filePath){
              0x0b, 0x0c, 0x0d, 0x0e, 0x0f, 0x10, 0x11, 0x12, 0x13, 0x14, 0x15,
              0x16, 0x17, 0x18, 0x19, 0x1a, 0x1b, 0x1c, 0x1d, 0x1e, 0x1f};
         AES aes(AESKeyLength::AES_256);
+        std::cout << "Start speedtest" << std::endl;
+         unsigned long start = getMicroseconds();
+        srand(std::time(nullptr));
         vector<unsigned char> encryptedRed = aes.EncryptCBC(redPaddedMessage,key,iv);
         vector<unsigned char> encryptedGreen = aes.EncryptCBC(greenPaddedMessage,key,iv);
         vector<unsigned char> encryptedBlue = aes.EncryptCBC(bluePaddedMessage,key,iv);
 
+        unsigned long delta = getMicroseconds() - start;
+        speed = (double)megabytesCount / delta * MICROSECONDS;
+
         write(encryptedRed,"/Users/gayuhkautaman/Documents/code/cpp/KIJProject/encryptedRED.txt");
         write(encryptedGreen,"/Users/gayuhkautaman/Documents/code/cpp/KIJProject/encryptedGreen.txt");
         write(encryptedBlue,"/Users/gayuhkautaman/Documents/code/cpp/KIJProject/encryptedBlue.txt");
+
+
+
+
         int tmp = 0;
         for(int i =1 ; i<= row-1;i++){
             for(int j=1 ; j<=column-1;j++){
@@ -573,7 +583,12 @@ void AES::executeAES(std::string filePath){
             }
         }
          image.fromPixelMatrix(bmp);
-         image.save("/Users/gayuhkautaman/Documents/code/cpp/KIJProject/example.bmp");
+         image.save("/Users/gayuhkautaman/Documents/code/cpp/KIJProject/encrypted.bmp");
+}
+unsigned long AES::getMicroseconds(){
+  struct timeval tv;
+  gettimeofday(&tv,NULL);
+  return MICROSECONDS * tv.tv_sec + tv.tv_usec;
 }
 
 void AES::executeDecryptAES(string filePath){

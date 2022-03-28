@@ -123,12 +123,12 @@
      <rect>
       <x>290</x>
       <y>340</y>
-      <width>131</width>
+      <width>181</width>
       <height>16</height>
      </rect>
     </property>
     <property name="text">
-     <string>Performance</string>
+     <string>Performance In Mb/s</string>
     </property>
    </widget>
    <widget class="QLabel" name="leftLabel_4">
@@ -155,6 +155,32 @@
     </property>
     <property name="text">
      <string>WithOpenSSL</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="performanceNON">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>400</y>
+      <width>131</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>NULL</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="leftLabel_7">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>400</y>
+      <width>131</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>NULL</string>
     </property>
    </widget>
   </widget>

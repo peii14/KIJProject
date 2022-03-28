@@ -28,6 +28,10 @@ void MainWindow::initConnection(){
 }
 
 void MainWindow::senderRoleClicked(){
+    filePath = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/dams.bmp";
+    QPixmap pix1(filePath);
+    ui->label_pic->setPixmap(pix1.scaled(QSize(300,300), Qt::KeepAspectRatio));
+
     ui->actionPushBtn->setText("Encrypt");
     ui->senderPushBtn->setDisabled(true);
     ui->recieverPushBtn->setDisabled(false);
@@ -36,31 +40,29 @@ void MainWindow::senderRoleClicked(){
 
 }
 void MainWindow::recieverRoleClicked(){
+    filePath = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/example.bmp";
+    QPixmap pix(filePath);
+    ui->label_pic->setPixmap(pix.scaled(QSize(300,300), Qt::KeepAspectRatio));
+
     ui->actionPushBtn->setText("Decrypt");
     ui->senderPushBtn->setDisabled(false);
     ui->recieverPushBtn->setDisabled(true);
-    ui->rightLabel->setText("Original");
-    ui->leftLabel->setText("Encrypted");
+    ui->rightLabel->setText("Encrypted");
+    ui->leftLabel->setText("Decrypted Original");
 }
 void MainWindow::actionBtnClicked(){
     if(ui->actionPushBtn->text() == "Encrypt"){
 //        Encrypt
-        filePath = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/dams.bmp";
-        QPixmap pix1(filePath);
-        ui->label_pic->setPixmap(pix1.scaled(QSize(300,300), Qt::KeepAspectRatio));
 
         AES aes;
         aes.executeAES(filePath.toStdString().c_str());
 
-        QString filePathEncrypted = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/example.bmp";
+        QString filePathEncrypted = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/encrypted.bmp";
         QPixmap pix(filePathEncrypted);
         ui->encryptedPic->setPixmap(pix.scaled(QSize(300,300), Qt::KeepAspectRatio));
+        ui->performanceNON->setText(QString::number(aes.speed));
     }else{
 //        Decrypt
-        filePath = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/example.bmp";
-        QPixmap pix(filePath);
-        ui->label_pic->setPixmap(pix.scaled(QSize(300,300), Qt::KeepAspectRatio));
-
         AES aes;
         aes.executeDecryptAES(filePath.toStdString().c_str());
 
