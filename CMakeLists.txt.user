@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 6.0.2, 2022-03-25T15:29:46. -->
+<!-- Written by QtCreator 6.0.2, 2022-03-28T00:57:02. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -106,8 +106,9 @@
 -DCMAKE_PREFIX_PATH:STRING=%{Qt:QT_INSTALL_PREFIX}
 -DCMAKE_C_COMPILER:STRING=%{Compiler:Executable:C}
 -DCMAKE_CXX_COMPILER:STRING=%{Compiler:Executable:Cxx}
--DCMAKE_TOOLCHAIN_FILE:PATH=%{Qt:QT_INSTALL_PREFIX}/lib/cmake/Qt6/qt.toolchain.cmake</value>
-    <value type="int" key="EnableQmlDebugging">0</value>
+-DCMAKE_TOOLCHAIN_FILE:PATH=%{Qt:QT_INSTALL_PREFIX}/lib/cmake/Qt6/qt.toolchain.cmake
+-DOPENSSL_ROOT_DIR=/usr/local/opt/openssl 
+-DOPENSSL_LIBRARIES=/usr/local/opt/openssl/lib</value>
     <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/Users/gayuhkautaman/Documents/code/cpp/AES-KIJ/build-AES-KIJ-Qt_6_2_2_homebrew</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">

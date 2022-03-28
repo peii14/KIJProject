@@ -21,13 +21,14 @@ find_package(Qt${QT_VERSION_MAJOR} COMPONENTS
         Widgets
         REQUIRED)
 #find_package( OpenCV REQUIRED )
+
 find_package(Qt${QT_VERSION_MAJOR}Quick REQUIRED)
 find_package(Qt${QT_VERSION_MAJOR}Widgets REQUIRED)
 find_package(Qt${QT_VERSION_MAJOR}charts REQUIRED)
 set(CMAKE_OSX_ARCHITECTURES "arm64")
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-
+include_directories(/usr/local/include)
 find_package(QT NAMES Qt6 Qt5 COMPONENTS Widgets REQUIRED)
 find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Widgets REQUIRED)
 
@@ -36,18 +37,12 @@ set(PROJECT_SOURCES
         mainwindow.cpp
         mainwindow.h
         mainwindow.ui
-        nativeaes.cpp
-        nativeaes.h
         libaes.cpp
         libaes.h
-        nativeaesdecrypt.cpp
-        nativeaesdecrypt.h
         bitmap.cpp
         bitmap.h
         aes.cpp
         aes.h
-#        server.cpp
-#        server.h
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
@@ -73,10 +68,14 @@ else()
     endif()
 endif()
 #include_directories( ${OpenCV_INCLUDE_DIRS} )
+
+link_directories(/opt/homebrew/Cellar/openssl@3/3.0.2/lib)
 target_link_libraries(AES-KIJ PRIVATE Qt${QT_VERSION_MAJOR}::Widgets
     Qt${QT_VERSION_MAJOR}::Gui
     Qt${QT_VERSION_MAJOR}::Qml
     Qt${QT_VERSION_MAJOR}::Quick
+    -lcrypto
+
 #    ${OpenCV_LIBS}
     )
 
