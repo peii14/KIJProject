@@ -259,18 +259,6 @@ void NativeAesEncrypt::ExecuteEncrypt(string filePath){
     KeyExpansion(key, expandedKey);
 
     cout<<redPaddedMessage<<endl;
-    ofstream redfile("/Users/gayuhkautaman/Documents/code/cpp/AES-KIJ/paddedMSG_RED_file.txt");
-    ofstream greenfile("/Users/gayuhkautaman/Documents/code/cpp/AES-KIJ/paddedMSG_GREEN_file.txt");
-    ofstream bluefile("/Users/gayuhkautaman/Documents/code/cpp/AES-KIJ/paddedMSG_BLUE_file.txt");
-    for (int i = 0; i < paddedMessageLen; i++) {
-       redfile << redEncryptedMessage;
-       greenfile << greenEncryptedMessage;
-       bluefile << blueEncryptedMessage;
-    }
-    redfile.close();
-    greenfile.close();
-    bluefile.close();
-
     // start encrypting padded message
     for (int i = 0; i < paddedMessageLen; i += 16) {
         AESEncrypt(redPaddedMessage+i, expandedKey, redEncryptedMessage+i);
@@ -284,6 +272,7 @@ void NativeAesEncrypt::ExecuteEncrypt(string filePath){
 //        cout << " ";
 //    }
 
+<<<<<<< Updated upstream
 //    cout << endl;
 //    ofstream redfile("/Users/gayuhkautaman/Documents/code/cpp/AES-KIJ/encrypted_RED_file.txt");
 //    ofstream greenfile("/Users/gayuhkautaman/Documents/code/cpp/AES-KIJ/encrypted_GREEN_file.txt");
@@ -296,6 +285,20 @@ void NativeAesEncrypt::ExecuteEncrypt(string filePath){
 //    redfile.close();
 //    greenfile.close();
 //    bluefile.close();
+=======
+    cout << endl;
+    ofstream redfile("D:\\coding\\QT_Projects\\KIJProject\\encrypted_RED_file.txt");
+    ofstream greenfile("D:\\coding\\QT_Projects\\KIJProject\\encrypted_GREEN_file.txt");
+    ofstream bluefile("D:\\coding\\QT_Projects\\KIJProject\\encrypted_BLUE_file.txt");
+    for (int i = 0; i < paddedMessageLen; i++) {
+       redfile << redEncryptedMessage;
+       greenfile << greenEncryptedMessage;
+       bluefile << blueEncryptedMessage;
+    }
+    redfile.close();
+    greenfile.close();
+    bluefile.close();
+>>>>>>> Stashed changes
     cout << "Wrote encrypted message to encrypted_file" << endl;
 
     // Free memory

@@ -7,7 +7,13 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+<<<<<<< Updated upstream
 
+=======
+    filePath = "D:\\coding\\QT_Projects\\KIJProject\\stroberi.bmp";
+    QPixmap pix(filePath);
+    ui->label_pic->setPixmap(pix.scaled(QSize(300,300), Qt::KeepAspectRatio));
+>>>>>>> Stashed changes
 
     setWindowTitle(tr("AES"));
     resize(1000, 500);
