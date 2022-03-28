@@ -3,8 +3,6 @@
 Libaes::Libaes()
 {
     keylength = 256;
-
-
 }
 void Libaes::executeEncryptLibAES(string filePath){
 
@@ -45,7 +43,7 @@ void Libaes::executeEncryptLibAES(string filePath){
 
      /* init vector */
          unsigned char iv_enc[AES_BLOCK_SIZE], iv_dec[AES_BLOCK_SIZE];
-         RAND_bytes(iv_enc, AES_BLOCK_SIZE);
+//         RAND_bytes(iv_enc, AES_BLOCK_SIZE);
          memcpy(iv_dec, iv_enc, AES_BLOCK_SIZE);
 //     encrypt
 //     unsigned char aes_key[keylength/8];

@@ -7,7 +7,7 @@ set(CMAKE_INCLUDE_CURRENT_DIR ON)
 set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
-set(CMAKE_CXX_FLAGS "-Wall -fPIC -std=c++11")
+set(CMAKE_CXX_FLAGS "-Wall -fPIC -std=c++11 -lcrypto")
 #set(CMAKE_OSX_ARCHITECTURES "arm64")
 set(CMAKE_OSX_DEPLOYMENT_TARGET "10.15")
 find_package(QT NAMES Qt6 Qt5 COMPONENTS Widgets LinguistTools REQUIRED)
@@ -28,7 +28,7 @@ find_package(Qt${QT_VERSION_MAJOR}charts REQUIRED)
 set(CMAKE_OSX_ARCHITECTURES "arm64")
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-include_directories(/usr/local/include)
+#include_directories(/usr/local/include)
 find_package(QT NAMES Qt6 Qt5 COMPONENTS Widgets REQUIRED)
 find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Widgets REQUIRED)
 
@@ -43,6 +43,7 @@ set(PROJECT_SOURCES
         bitmap.h
         aes.cpp
         aes.h
+
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
@@ -69,12 +70,12 @@ else()
 endif()
 #include_directories( ${OpenCV_INCLUDE_DIRS} )
 
-link_directories(/opt/homebrew/Cellar/openssl@3/3.0.2/lib)
+#link_directories(/opt/homebrew/Cellar/openssl@3/3.0.2/lib)
 target_link_libraries(AES-KIJ PRIVATE Qt${QT_VERSION_MAJOR}::Widgets
     Qt${QT_VERSION_MAJOR}::Gui
     Qt${QT_VERSION_MAJOR}::Qml
     Qt${QT_VERSION_MAJOR}::Quick
-    -lcrypto
+#    -lcrypto
 
 #    ${OpenCV_LIBS}
     )

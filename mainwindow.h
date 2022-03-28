@@ -5,8 +5,6 @@
 #include <QFileDialog>
 #include <QLabel>
 #include <QPixmap>
-#include "nativeaes.h"
-#include "nativeaesdecrypt.h"
 
 namespace Ui {
 class MainWindow;

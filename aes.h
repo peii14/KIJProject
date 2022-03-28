@@ -6,7 +6,7 @@
 #include <cstring>
 #include <iostream>
 #include <vector>
-#include <bitmap.h>
+#include "bitmap.h"
 #include <fstream>
 #include <sstream>
 #include <sys/time.h>

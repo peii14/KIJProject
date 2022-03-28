@@ -1,4 +1,0 @@
-/Users/gayuhkautaman/Documents/code/cpp/AES-KIJ/CMakeFiles/AES-KIJ.dir
-/Users/gayuhkautaman/Documents/code/cpp/AES-KIJ/CMakeFiles/edit_cache.dir
-/Users/gayuhkautaman/Documents/code/cpp/AES-KIJ/CMakeFiles/rebuild_cache.dir
-/Users/gayuhkautaman/Documents/code/cpp/AES-KIJ/CMakeFiles/AES-KIJ_autogen.dir
