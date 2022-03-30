@@ -1,0 +1,4 @@
+/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/CMakeFiles/AES-KIJ.dir
+/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/CMakeFiles/AES-KIJ_autogen.dir
+/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/CMakeFiles/ALL_BUILD.dir
+/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/CMakeFiles/ZERO_CHECK.dir

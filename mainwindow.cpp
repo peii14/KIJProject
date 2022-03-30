@@ -35,7 +35,7 @@ void MainWindow::senderRoleClicked(){
 
 }
 void MainWindow::recieverRoleClicked(){
-    filePath = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/example.bmp";
+    filePath = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/encrypted.bmp";
     QPixmap pix(filePath);
     ui->label_pic->setPixmap(pix.scaled(QSize(300,300), Qt::KeepAspectRatio));
 
@@ -55,14 +55,15 @@ void MainWindow::actionBtnClicked(){
         QString filePathEncrypted = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/encrypted.bmp";
         QPixmap pix(filePathEncrypted);
         ui->encryptedPic->setPixmap(pix.scaled(QSize(300,300), Qt::KeepAspectRatio));
-        ui->performanceNON->setText(QString::number(aes.speed));
+        ui->performanceNON->setText(QString::number(aes.speed).append(" Mb/s"));
     }else{
 //        Decrypt
         AES aes;
-        aes.executeDecryptAES(filePath.toStdString().c_str());
+        aes.executeDecryptAES("/Users/gayuhkautaman/Documents/code/cpp/KIJProject/encrypted.bmp");
 
         QString filePathDecrypted = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/decrypted.bmp";
         QPixmap pixDec(filePathDecrypted);
+        ui->performanceNON->setText(QString::number(aes.speed).append(" Mb/s"));
         ui->encryptedPic->setPixmap(pixDec.scaled(QSize(300,300), Qt::KeepAspectRatio));
     }
 }

@@ -1,0 +1,998 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		14D70E22B01442CD8F843BA9 /* AES-KIJ_autogen */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D7D46C3F6C6E4880B3BE29A2 /* Build configuration list for PBXAggregateTarget "AES-KIJ_autogen" */;
+			buildPhases = (
+				7A33FA6D7C0E070E03570D93 /* Generate AES-KIJ_autogen/include_Debug/ui_mainwindow.h */,
+			);
+			dependencies = (
+				587ED2E9A6294EA6AFD9535B /* PBXTargetDependency */,
+			);
+			name = "AES-KIJ_autogen";
+			productName = "AES-KIJ_autogen";
+		};
+		39C2A40E9CE24A79A4C0A534 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 853BF8AEB5DC4261A8E519D7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				D1EBF3D166F8C9BA1DF1FE2C /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		FB3CB7C0C8BE453F82A732D4 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 51A821BB1C5A4CCBA215AB25 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				4DC5045142B8B1E699CF540F /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				5CF86E750103494BB0CF25A1 /* PBXTargetDependency */,
+				F22F9E0F653E40148638D983 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		03CAAA36267846D497F43C62 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/AES-KIJ_autogen/include/ui_mainwindow.h */ = {isa = PBXBuildFile; fileRef = 4E3E8EB777434D5598419C25 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/AES-KIJ_autogen/include/ui_mainwindow.h */; };
+		2B73CE8F031949809D4DDF22 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/mainwindow.h */ = {isa = PBXBuildFile; fileRef = 6B61A8D49C514FFA90D4FBEB /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/mainwindow.h */; };
+		6B8A7D6C943E4EBAA4292930 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/libaes.h */ = {isa = PBXBuildFile; fileRef = C92346B56F804D8E9FD2D3E0 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/libaes.h */; };
+		806EECAE6D3342A9A7707B62 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/libaes.cpp */ = {isa = PBXBuildFile; fileRef = A1D80F4246B14C2A8A53573E /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/libaes.cpp */; };
+		8D2926C61C184699A30F44E3 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/main.cpp */ = {isa = PBXBuildFile; fileRef = 3CD923A9025A450DA7817CB6 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/main.cpp */; };
+		93E4E4804CAF459D8B0A6A8C /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/aes.cpp */ = {isa = PBXBuildFile; fileRef = E3792723835B4D5A9E8B160B /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/aes.cpp */; };
+		9FDCE4792DE242B497E09D2A /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/CMakeFiles/AES-KIJ.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 92ACA749D4B2438B8DAEE062 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/CMakeFiles/AES-KIJ.dir/Info.plist */; };
+		B02637BF5B7448ADB62CCE41 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/AES-KIJ_autogen/mocs_compilation.cpp */ = {isa = PBXBuildFile; fileRef = 91040A3945264818A340E598 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/AES-KIJ_autogen/mocs_compilation.cpp */; };
+		B33E8955336D4225B838FC5E /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/bitmap.cpp */ = {isa = PBXBuildFile; fileRef = AEC18EAFB0B2442D8D1C06F3 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/bitmap.cpp */; };
+		C5D235FA33124FBD9C59F698 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = F7C920C42E694180A39C7605 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/CMakeLists.txt */; };
+		CD070E0B1DE54C28BDEF9947 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/bitmap.h */ = {isa = PBXBuildFile; fileRef = FC69CCB60CE248FDBC2B8C93 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/bitmap.h */; };
+		DC87BAF8B33144A6B8CC1838 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/mainwindow.ui */ = {isa = PBXBuildFile; fileRef = 938DAF8F8CC8443C845F6298 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/mainwindow.ui */; };
+		EE967B7C98214E608254EFE6 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/mainwindow.cpp */ = {isa = PBXBuildFile; fileRef = 1DB69EFEF1C948B5B0B57C12 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/mainwindow.cpp */; };
+		F1797E2A63AF4D21A8F515BA /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/aes.h */ = {isa = PBXBuildFile; fileRef = C899D2A38AE34A43B70BE31F /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/aes.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0B8766D9F6B641B8AE6993E0 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		1A6CB8A9B9B545058B79F31F /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		7A953ACABBDF4089A7B3C54B /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		DFCAF7F43F5F423094C4CF4A /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		07990EB93B03471B853BFB74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59E795C64F6F436984FB8808 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5A18993DBDE479B873ADF6B;
+			remoteInfo = "AES-KIJ";
+		};
+		5406D014DDFB487EB7935E3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59E795C64F6F436984FB8808 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39C2A40E9CE24A79A4C0A534;
+			remoteInfo = ZERO_CHECK;
+		};
+		82CA5DF946BA4B6F99B9A9C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59E795C64F6F436984FB8808 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39C2A40E9CE24A79A4C0A534;
+			remoteInfo = ZERO_CHECK;
+		};
+		990629EB8F1E4D35A85FB910 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59E795C64F6F436984FB8808 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14D70E22B01442CD8F843BA9;
+			remoteInfo = "AES-KIJ_autogen";
+		};
+		9C301590E0D541238F373FA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59E795C64F6F436984FB8808 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39C2A40E9CE24A79A4C0A534;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DB69EFEF1C948B5B0B57C12 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/mainwindow.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mainwindow.cpp; path = mainwindow.cpp; sourceTree = SOURCE_ROOT; };
+		3CD923A9025A450DA7817CB6 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		4E3E8EB777434D5598419C25 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/AES-KIJ_autogen/include/ui_mainwindow.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ui_mainwindow.h; path = "build-KIJProject-Qt_6_2_2_homebrew/AES-KIJ_autogen/include/ui_mainwindow.h"; sourceTree = SOURCE_ROOT; };
+		5253A67714E341669F02A550 /* AES-KIJ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "AES-KIJ"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B61A8D49C514FFA90D4FBEB /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/mainwindow.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mainwindow.h; path = mainwindow.h; sourceTree = SOURCE_ROOT; };
+		91040A3945264818A340E598 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/AES-KIJ_autogen/mocs_compilation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mocs_compilation.cpp; path = "build-KIJProject-Qt_6_2_2_homebrew/AES-KIJ_autogen/mocs_compilation.cpp"; sourceTree = SOURCE_ROOT; };
+		92ACA749D4B2438B8DAEE062 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/CMakeFiles/AES-KIJ.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "build-KIJProject-Qt_6_2_2_homebrew/CMakeFiles/AES-KIJ.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		938DAF8F8CC8443C845F6298 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/mainwindow.ui */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = mainwindow.ui; path = mainwindow.ui; sourceTree = SOURCE_ROOT; };
+		A1D80F4246B14C2A8A53573E /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/libaes.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = libaes.cpp; path = libaes.cpp; sourceTree = SOURCE_ROOT; };
+		AEC18EAFB0B2442D8D1C06F3 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/bitmap.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = bitmap.cpp; path = bitmap.cpp; sourceTree = SOURCE_ROOT; };
+		C899D2A38AE34A43B70BE31F /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/aes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = aes.h; path = aes.h; sourceTree = SOURCE_ROOT; };
+		C92346B56F804D8E9FD2D3E0 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/libaes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = libaes.h; path = libaes.h; sourceTree = SOURCE_ROOT; };
+		DB96A39FBF3F4216B2C623E3 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E3792723835B4D5A9E8B160B /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/aes.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = aes.cpp; path = aes.cpp; sourceTree = SOURCE_ROOT; };
+		E82ABF5FCD204C1495D51528 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F7C920C42E694180A39C7605 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		FC69CCB60CE248FDBC2B8C93 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/bitmap.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = bitmap.h; path = bitmap.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43FADAC940704361ABD9083E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B30AF874CF54470AA3C1D1B = {
+			isa = PBXGroup;
+			children = (
+				252CFAC4EBB7423FBA142265 /* AES-KIJ */,
+				E8F5D1DB7FEE4F318A0E2A90 /* AES-KIJ_autogen */,
+				AC73797B0DC54B5381103C06 /* ALL_BUILD */,
+				C518EAF44C12447381998F1E /* Products */,
+				90DEA0E52EA14BB39C62856A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		252CFAC4EBB7423FBA142265 /* AES-KIJ */ = {
+			isa = PBXGroup;
+			children = (
+				38B4A7461B8844F081AB33DE /* Source Files */,
+				844E11286A054E8D9EB46676 /* Header Files */,
+				3313CA08F920478EB307BC4B /* Resources */,
+				F7C920C42E694180A39C7605 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/CMakeLists.txt */,
+				938DAF8F8CC8443C845F6298 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/mainwindow.ui */,
+			);
+			name = "AES-KIJ";
+			sourceTree = "<group>";
+		};
+		3313CA08F920478EB307BC4B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				92ACA749D4B2438B8DAEE062 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/CMakeFiles/AES-KIJ.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		38B4A7461B8844F081AB33DE /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3792723835B4D5A9E8B160B /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/aes.cpp */,
+				AEC18EAFB0B2442D8D1C06F3 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/bitmap.cpp */,
+				91040A3945264818A340E598 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/AES-KIJ_autogen/mocs_compilation.cpp */,
+				A1D80F4246B14C2A8A53573E /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/libaes.cpp */,
+				3CD923A9025A450DA7817CB6 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/main.cpp */,
+				1DB69EFEF1C948B5B0B57C12 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/mainwindow.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		844E11286A054E8D9EB46676 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				C899D2A38AE34A43B70BE31F /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/aes.h */,
+				FC69CCB60CE248FDBC2B8C93 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/bitmap.h */,
+				4E3E8EB777434D5598419C25 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/AES-KIJ_autogen/include/ui_mainwindow.h */,
+				C92346B56F804D8E9FD2D3E0 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/libaes.h */,
+				6B61A8D49C514FFA90D4FBEB /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/mainwindow.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		90DEA0E52EA14BB39C62856A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0B1EC643ED0432A8B7E0E89 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		AC73797B0DC54B5381103C06 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				A0B1EC643ED0432A8B7E0E89 /* CMake Rules */,
+				E82ABF5FCD204C1495D51528 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		C518EAF44C12447381998F1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5253A67714E341669F02A550 /* AES-KIJ */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE983D1FA04445FA809C109B /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		E8F5D1DB7FEE4F318A0E2A90 /* AES-KIJ_autogen */ = {
+			isa = PBXGroup;
+			children = (
+				CE983D1FA04445FA809C109B /* CMake Rules */,
+				DB96A39FBF3F4216B2C623E3 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/CMakeLists.txt */,
+			);
+			name = "AES-KIJ_autogen";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5A18993DBDE479B873ADF6B /* AES-KIJ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64EFFB53685C44008F277D09 /* Build configuration list for PBXNativeTarget "AES-KIJ" */;
+			buildPhases = (
+				09DB210FFAE4405BB38E7DC3 /* Sources */,
+				43FADAC940704361ABD9083E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C48BF2ADC4AD435B8E941CAF /* PBXTargetDependency */,
+				8496BAF3C11F4EB18E118BBB /* PBXTargetDependency */,
+			);
+			name = "AES-KIJ";
+			productName = "AES-KIJ";
+			productReference = 5253A67714E341669F02A550 /* AES-KIJ */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59E795C64F6F436984FB8808 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1320;
+			};
+			buildConfigurationList = 4FF686E076D04338BCF75E7D /* Build configuration list for PBXProject "AES-KIJ" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				0B8766D9F6B641B8AE6993E0 /* Debug */,
+				DFCAF7F43F5F423094C4CF4A /* Release */,
+				1A6CB8A9B9B545058B79F31F /* MinSizeRel */,
+				7A953ACABBDF4089A7B3C54B /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 1B30AF874CF54470AA3C1D1B;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				FB3CB7C0C8BE453F82A732D4 /* ALL_BUILD */,
+				F5A18993DBDE479B873ADF6B /* AES-KIJ */,
+				14D70E22B01442CD8F843BA9 /* AES-KIJ_autogen */,
+				39C2A40E9CE24A79A4C0A534 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		482DA330A24EC943C687A687 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		4DC5045142B8B1E699CF540F /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		7A33FA6D7C0E070E03570D93 /* Generate AES-KIJ_autogen/include_Debug/ui_mainwindow.h */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate AES-KIJ_autogen/include_Debug/ui_mainwindow.h";
+			outputPaths = (
+"/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/AES-KIJ_autogen/include_Debug/ui_mainwindow.h","/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/AES-KIJ_autogen/include_MinSizeRel/ui_mainwindow.h","/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/AES-KIJ_autogen/include_RelWithDebInfo/ui_mainwindow.h","/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/AES-KIJ_autogen/include_Release/ui_mainwindow.h","/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/AES-KIJ_autogen/mocs_compilation.cpp","/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/CMakeFiles/AES-KIJ_autogen"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew
+  /Users/gayuhkautaman/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/CMakeFiles/AES-KIJ_autogen.dir/AutogenInfo.json Debug
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew
+  /Users/gayuhkautaman/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/CMakeFiles/AES-KIJ_autogen.dir/AutogenInfo.json Release
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew
+  /Users/gayuhkautaman/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/CMakeFiles/AES-KIJ_autogen.dir/AutogenInfo.json MinSizeRel
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew
+  /Users/gayuhkautaman/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/CMakeFiles/AES-KIJ_autogen.dir/AutogenInfo.json RelWithDebInfo
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D1EBF3D166F8C9BA1DF1FE2C /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew
+  make -f /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew
+  make -f /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew
+  make -f /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew
+  make -f /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09DB210FFAE4405BB38E7DC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93E4E4804CAF459D8B0A6A8C /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/aes.cpp */,
+				B33E8955336D4225B838FC5E /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/bitmap.cpp */,
+				B02637BF5B7448ADB62CCE41 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/AES-KIJ_autogen/mocs_compilation.cpp */,
+				806EECAE6D3342A9A7707B62 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/libaes.cpp */,
+				8D2926C61C184699A30F44E3 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/main.cpp */,
+				EE967B7C98214E608254EFE6 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/mainwindow.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		587ED2E9A6294EA6AFD9535B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39C2A40E9CE24A79A4C0A534 /* ZERO_CHECK */;
+			targetProxy = 82CA5DF946BA4B6F99B9A9C7 /* PBXContainerItemProxy */;
+		};
+		5CF86E750103494BB0CF25A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5A18993DBDE479B873ADF6B /* AES-KIJ */;
+			targetProxy = 07990EB93B03471B853BFB74 /* PBXContainerItemProxy */;
+		};
+		8496BAF3C11F4EB18E118BBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14D70E22B01442CD8F843BA9 /* AES-KIJ_autogen */;
+			targetProxy = 990629EB8F1E4D35A85FB910 /* PBXContainerItemProxy */;
+		};
+		C48BF2ADC4AD435B8E941CAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39C2A40E9CE24A79A4C0A534 /* ZERO_CHECK */;
+			targetProxy = 5406D014DDFB487EB7935E3A /* PBXContainerItemProxy */;
+		};
+		F22F9E0F653E40148638D983 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39C2A40E9CE24A79A4C0A534 /* ZERO_CHECK */;
+			targetProxy = 9C301590E0D541238F373FA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00D7649B9E3849EC82504B7B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/opt/homebrew/lib,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_CORE_LIB,QT_NO_DEBUG,QT_WIDGETS_LIB,QT_GUI_LIB,QT_QML_LIB,QT_NETWORK_LIB,QT_QUICK_LIB,QT_QMLMODELS_LIB,QT_OPENGL_LIB,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew",/Users/gayuhkautaman/Documents/code/cpp/KIJProject,"/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/AES-KIJ_autogen/include_RelWithDebInfo","$(inherited)");
+				INFOPLIST_FILE = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/CMakeFiles/AES-KIJ.dir/Info.plist";
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/opt/homebrew/lib,"$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-Wall -fPIC -std=c++11 -lcrypto        -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-F /opt/homebrew/lib","-framework QtWidgets","-framework QtQuick","-framework QtQmlModels","-framework QtQml","-framework QtNetwork","-framework QtOpenGL","-framework QtGui","-framework QtCore","-framework DiskArbitration","-framework IOKit","-framework OpenGL","-framework AGL","-framework AppKit","-framework ImageIO","-framework Metal","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "AES-KIJ";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew";
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/lib/QtCore.framework/Headers,"/opt/homebrew/share/qt/mkspecs/macx-clang",/opt/homebrew/include,/opt/homebrew/lib/QtWidgets.framework/Headers,/opt/homebrew/lib/QtGui.framework/Headers,/opt/homebrew/lib/QtQml.framework/Headers,/opt/homebrew/lib/QtNetwork.framework/Headers,/opt/homebrew/lib/QtQuick.framework/Headers,/opt/homebrew/lib/QtQmlModels.framework/Headers,/opt/homebrew/lib/QtOpenGL.framework/Headers,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		00EC9F9E75914B588C5AD0B8 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk;
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/build";
+			};
+			name = MinSizeRel;
+		};
+		05B74E76FA05481A96805172 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		1FE1CE483538462EA97B8C33 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		2D6E5D6E1CBF4EB09BAA3E2E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3602F0B78FE44D29AB775FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		36CA742C299E44C28E7B4188 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		4DF2233C6A90471BAFE20957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk;
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/build";
+			};
+			name = Debug;
+		};
+		5AE2D9A0319B4EBB8B9FCC4F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "AES-KIJ_autogen";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		82FEEFCD60734C18B581133E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "AES-KIJ_autogen";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		8EF0A444599443DDAE0B12D1 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "AES-KIJ_autogen";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		95FFEF3AEE3746F0A8325DB5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A90B5A00F87F40E2B155E3F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/opt/homebrew/lib,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_CORE_LIB,QT_NO_DEBUG,QT_WIDGETS_LIB,QT_GUI_LIB,QT_QML_LIB,QT_NETWORK_LIB,QT_QUICK_LIB,QT_QMLMODELS_LIB,QT_OPENGL_LIB,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew",/Users/gayuhkautaman/Documents/code/cpp/KIJProject,"/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/AES-KIJ_autogen/include_Release","$(inherited)");
+				INFOPLIST_FILE = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/CMakeFiles/AES-KIJ.dir/Info.plist";
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/opt/homebrew/lib,"$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-Wall -fPIC -std=c++11 -lcrypto     -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-F /opt/homebrew/lib","-framework QtWidgets","-framework QtQuick","-framework QtQmlModels","-framework QtQml","-framework QtNetwork","-framework QtOpenGL","-framework QtGui","-framework OpenGL","-framework AGL","-framework AppKit","-framework ImageIO","-framework Metal","-framework QtCore","-framework DiskArbitration","-framework IOKit","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "AES-KIJ";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew";
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/lib/QtCore.framework/Headers,"/opt/homebrew/share/qt/mkspecs/macx-clang",/opt/homebrew/include,/opt/homebrew/lib/QtWidgets.framework/Headers,/opt/homebrew/lib/QtGui.framework/Headers,/opt/homebrew/lib/QtQml.framework/Headers,/opt/homebrew/lib/QtNetwork.framework/Headers,/opt/homebrew/lib/QtQuick.framework/Headers,/opt/homebrew/lib/QtQmlModels.framework/Headers,/opt/homebrew/lib/QtOpenGL.framework/Headers,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		C4D57F7415CE4A119B85216F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "AES-KIJ_autogen";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		C8641ED108384BAEB52CA895 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk;
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/build";
+			};
+			name = RelWithDebInfo;
+		};
+		C94C04923C7A48ABA450943C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk;
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/build";
+			};
+			name = Release;
+		};
+		CF8BE9DF562740E896D0DDFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		ED0123C6B59F4CF4A492B1CA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/opt/homebrew/lib,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_CORE_LIB,QT_NO_DEBUG,QT_WIDGETS_LIB,QT_GUI_LIB,QT_QML_LIB,QT_NETWORK_LIB,QT_QUICK_LIB,QT_QMLMODELS_LIB,QT_OPENGL_LIB,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew",/Users/gayuhkautaman/Documents/code/cpp/KIJProject,"/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/AES-KIJ_autogen/include_MinSizeRel","$(inherited)");
+				INFOPLIST_FILE = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/CMakeFiles/AES-KIJ.dir/Info.plist";
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/opt/homebrew/lib,"$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-Wall -fPIC -std=c++11 -lcrypto     -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-F /opt/homebrew/lib","-framework QtWidgets","-framework QtQuick","-framework QtQmlModels","-framework QtQml","-framework QtNetwork","-framework QtOpenGL","-framework QtGui","-framework QtCore","-framework DiskArbitration","-framework IOKit","-framework OpenGL","-framework AGL","-framework AppKit","-framework ImageIO","-framework Metal","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "AES-KIJ";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew";
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/lib/QtCore.framework/Headers,"/opt/homebrew/share/qt/mkspecs/macx-clang",/opt/homebrew/include,/opt/homebrew/lib/QtWidgets.framework/Headers,/opt/homebrew/lib/QtGui.framework/Headers,/opt/homebrew/lib/QtQml.framework/Headers,/opt/homebrew/lib/QtNetwork.framework/Headers,/opt/homebrew/lib/QtQuick.framework/Headers,/opt/homebrew/lib/QtQmlModels.framework/Headers,/opt/homebrew/lib/QtOpenGL.framework/Headers,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		EE1AA24024714C4894A344D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		EFF055530A734DAFA9799E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/opt/homebrew/lib,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_CORE_LIB,QT_WIDGETS_LIB,QT_GUI_LIB,QT_QML_LIB,QT_NETWORK_LIB,QT_QUICK_LIB,QT_QMLMODELS_LIB,QT_OPENGL_LIB,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew",/Users/gayuhkautaman/Documents/code/cpp/KIJProject,"/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/AES-KIJ_autogen/include_Debug","$(inherited)");
+				INFOPLIST_FILE = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/CMakeFiles/AES-KIJ.dir/Info.plist";
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/opt/homebrew/lib,"$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-Wall -fPIC -std=c++11 -lcrypto    '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-F /opt/homebrew/lib","-framework QtWidgets","-framework QtQuick","-framework QtQmlModels","-framework QtQml","-framework QtNetwork","-framework QtOpenGL","-framework QtGui","-framework QtCore","-framework DiskArbitration","-framework IOKit","-framework OpenGL","-framework AGL","-framework AppKit","-framework ImageIO","-framework Metal","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "AES-KIJ";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew";
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/lib/QtCore.framework/Headers,"/opt/homebrew/share/qt/mkspecs/macx-clang",/opt/homebrew/include,/opt/homebrew/lib/QtWidgets.framework/Headers,/opt/homebrew/lib/QtGui.framework/Headers,/opt/homebrew/lib/QtQml.framework/Headers,/opt/homebrew/lib/QtNetwork.framework/Headers,/opt/homebrew/lib/QtQuick.framework/Headers,/opt/homebrew/lib/QtQmlModels.framework/Headers,/opt/homebrew/lib/QtOpenGL.framework/Headers,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FF686E076D04338BCF75E7D /* Build configuration list for PBXProject "AES-KIJ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DF2233C6A90471BAFE20957 /* Debug */,
+				C94C04923C7A48ABA450943C /* Release */,
+				00EC9F9E75914B588C5AD0B8 /* MinSizeRel */,
+				C8641ED108384BAEB52CA895 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		51A821BB1C5A4CCBA215AB25 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE1AA24024714C4894A344D0 /* Debug */,
+				36CA742C299E44C28E7B4188 /* Release */,
+				2D6E5D6E1CBF4EB09BAA3E2E /* MinSizeRel */,
+				05B74E76FA05481A96805172 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		64EFFB53685C44008F277D09 /* Build configuration list for PBXNativeTarget "AES-KIJ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFF055530A734DAFA9799E40 /* Debug */,
+				A90B5A00F87F40E2B155E3F6 /* Release */,
+				ED0123C6B59F4CF4A492B1CA /* MinSizeRel */,
+				00D7649B9E3849EC82504B7B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		853BF8AEB5DC4261A8E519D7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF8BE9DF562740E896D0DDFE /* Debug */,
+				3602F0B78FE44D29AB775FDA /* Release */,
+				1FE1CE483538462EA97B8C33 /* MinSizeRel */,
+				95FFEF3AEE3746F0A8325DB5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D7D46C3F6C6E4880B3BE29A2 /* Build configuration list for PBXAggregateTarget "AES-KIJ_autogen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82FEEFCD60734C18B581133E /* Debug */,
+				C4D57F7415CE4A119B85216F /* Release */,
+				5AE2D9A0319B4EBB8B9FCC4F /* MinSizeRel */,
+				8EF0A444599443DDAE0B12D1 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59E795C64F6F436984FB8808 /* Project object */;
+}
