@@ -34,10 +34,15 @@ const unsigned int MICROSECONDS = 1000000;
   return MICROSECONDS * tv.tv_sec + tv.tv_usec;
 }
 
-
+std::ifstream::pos_type filesize(const char* filename)
+{
+    std::ifstream in(filename, std::ifstream::ate | std::ifstream::binary);
+    return in.tellg();
+}
 void executeEncrypt(){
     int row,column;
-    unsigned int megabytesCount = 10;
+    unsigned int megabytesCount;
+    
     vector<unsigned char> redString;
     vector <unsigned char> greenString;
     vector <unsigned char> blueString;
@@ -45,6 +50,7 @@ void executeEncrypt(){
      std::vector <std::vector <Pixel> > bmp;
      Pixel rgb;
      string filePath = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/dams.bmp";
+     megabytesCount = filesize(filePath.c_str());
      image.open(filePath);
      bool validBmp = image.isImage();
      if( validBmp == true ){
@@ -142,7 +148,7 @@ void executeEncrypt(){
 }
 void executeDecrypt(){
     int row,column;
-    unsigned int megabytesCount = 10;
+    unsigned int megabytesCount;
     vector<unsigned char> redString;
     vector <unsigned char> greenString;
     vector <unsigned char> blueString;
@@ -150,6 +156,7 @@ void executeDecrypt(){
      std::vector <std::vector <Pixel> > bmp;
      Pixel rgb;
      string filePath = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/KIJ-openssl/opensslEncrypted.bmp";
+    megabytesCount = filesize(filePath.c_str());
      image.open(filePath);
      bool validBmp = image.isImage();
      if( validBmp == true ){
@@ -212,12 +219,6 @@ void executeDecrypt(){
     char* greenPaddedMsg = reinterpret_cast<char*>(greenPaddedMessage.data());
     char* bluePaddedMsg = reinterpret_cast<char*>(bluePaddedMessage.data());
 
-    // unsigned char iv[] = {0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff,
-    //                     0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff};
-    // unsigned char dec_key[] = {0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07,
-    //                      0x08, 0x09, 0x0a, 0x0b, 0x0c, 0x0d, 0x0e, 0x0f,
-    //                      0x10, 0x11, 0x12, 0x13, 0x14, 0x15, 0x16, 0x17,
-    //                      0x18, 0x19, 0x1a, 0x1b, 0x1c, 0x1d, 0x1e, 0x1f};
     AES_KEY enc_key, dec_key;
     AES_set_decrypt_key(aes_key, keylength, &dec_key);
     unsigned long start = getMicroseconds();
