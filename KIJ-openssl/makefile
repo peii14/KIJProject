@@ -4,8 +4,8 @@ CC = g++
 # compiler flags
 CFLAGS  = -g -Wall -lcrypto
 
-main: aes.cpp ../bitmap.cpp
-	$(CC) aes.cpp $(CFLAGS) ../bitmap.cpp  -o main
+main: aes.cpp ../bitmap.cpp rsa.cpp 
+	$(CC) aes.cpp $(CFLAGS) rsa.cpp $(CFLAGS) ../bitmap.cpp   -o main
 
 clean:
 	$(RM) main
