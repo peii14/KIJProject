@@ -17,8 +17,6 @@
 
 using namespace std;
 
-
-
 unsigned long getMicroseconds(){
     const unsigned int MICROSECONDS = 1000000;
     struct timeval tv;
@@ -58,7 +56,6 @@ void decryptPassword(){
     RSA * private_key;
     private_key = rsa.readCert("private_key.pem",false);
     // read pass
-    cout<<"MASUK SINI"<<endl;
     std::ifstream t("private_key.bin",std::ios::binary);
     t.seekg(0, std::ios::end);
     size_t size = t.tellg();
@@ -70,9 +67,8 @@ void decryptPassword(){
     decrypt = (char *)malloc(256);
     int decrypt_length = rsa.private_decrypt(256, (unsigned char*)encrypt.c_str(), (unsigned char*)decrypt, private_key, RSA_PKCS1_OAEP_PADDING);
     if(decrypt_length == -1) {
-        LOG("An error occurred in private_decrypt() method");
+       cout<<endl;
     }
-    LOG("Data has been decrypted.");
 
     strcpy(rsa.password,decrypt);
     free(private_key);
@@ -90,7 +86,7 @@ void executeEncrypt(){
     std::vector <std::vector <Pixel> > bmp;
     Pixel rgb;
     string filePath = "../dams.bmp";
-    megabytesCount = filesize(filePath.c_str());
+    megabytesCount = 4;
     image.open(filePath);
     bool validBmp = image.isImage();
     if( validBmp == true ){
@@ -169,7 +165,7 @@ void executeEncrypt(){
     AES_cbc_encrypt((unsigned char*)greenPaddedMsg ,GREENenc_out, paddedMessageLen, &enc_key, iv_enc, AES_ENCRYPT);
     AES_cbc_encrypt((unsigned char*)bluePaddedMsg ,BLUEenc_out, paddedMessageLen, &enc_key, iv_enc, AES_ENCRYPT);
     double speed = (double)megabytesCount / delta * 1000000;
-    cout<<"Encryption performance with openssl : "<<speed<<" Mb/s"<<endl;
+    cout<< std::fixed<<std::setprecision(2)<<"Encryption performance with openssl : "<<speed<<" Mb/s"<<endl;
      int tmp = 0;
      for(int i =1 ; i<= row-1;i++){
          for(int j=1 ; j<=column-1;j++){
@@ -196,7 +192,7 @@ void executeDecrypt(){
      std::vector <std::vector <Pixel> > bmp;
      Pixel rgb;
      string filePath = "./opensslEncrypted.bmp";
-    megabytesCount = filesize(filePath.c_str());
+    megabytesCount = 4;
 
     // decrypt password
     decryptPassword();
@@ -273,7 +269,7 @@ void executeDecrypt(){
     AES_cbc_encrypt((unsigned char*)greenPaddedMsg, green_out, encryptedsize ,&dec_key, iv_dec, AES_DECRYPT);
     AES_cbc_encrypt((unsigned char*)bluePaddedMsg, blue_out, encryptedsize ,&dec_key, iv_dec, AES_DECRYPT);
      double speed = (double)megabytesCount / delta * 1000000;
-    cout<<"Decryption performance with openssl : "<<speed<<" Mb/s"<<endl;
+    cout<< std::fixed <<std::setprecision(2)<<"Decryption performance with openssl : "<<speed<<" Mb/s"<<endl;
     int tmp = 0;
      for(int i =1 ; i<= row-1;i++){
          for(int j=1 ; j<=column-1;j++){

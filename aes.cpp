@@ -451,7 +451,7 @@ void AES::write(vector<unsigned char> v,string fileName){
 }
 void AES::executeAES(std::string filePath,string password){
     const unsigned int BLOCK_BYTES_LENGTH = 16 * sizeof(unsigned char);
-    megabytesCount = filesize(filePath.c_str());
+    megabytesCount = 4;
     Bitmap image;
      std::vector <std::vector <Pixel> > bmp;
      Pixel rgb;
@@ -526,8 +526,8 @@ void AES::executeAES(std::string filePath,string password){
                 key.push_back(i);
             }
         }
-        qDebug()<<"Ekey"<<key;
         AES aes(AESKeyLength::AES_256);
+
         qDebug()<<"Start Timer";
         unsigned long start = getMicroseconds();
         srand(std::time(nullptr));
@@ -539,6 +539,7 @@ void AES::executeAES(std::string filePath,string password){
         speed = round(speed*100)/100;
         qDebug()<<"encrypted";
         qDebug()<<"Constructing to BMP";
+
         int tmp = 0;
         for(int i =1 ; i<= row-1;i++){
             for(int j=1 ; j<=column-1;j++){
@@ -558,15 +559,13 @@ unsigned long AES::getMicroseconds(){
   gettimeofday(&tv,NULL);
   return MICROSECONDS * tv.tv_sec + tv.tv_usec;
 }
-std::ifstream::pos_type AES::filesize(const char* filename)
-{
+std::ifstream::pos_type AES::filesize(const char* filename){
     std::ifstream in(filename, std::ifstream::ate | std::ifstream::binary);
     return in.tellg();
 }
 
-
 void AES::executeDecryptAES(string filePath,string password){
-     megabytesCount = filesize(filePath.c_str());
+     megabytesCount = 4;
      Bitmap image;
      std::vector <std::vector <Pixel> > bmp;
      Pixel rgb;

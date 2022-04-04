@@ -96,8 +96,8 @@ void MainWindow::recieverRoleClicked(){
     ui->actionPushBtn->setText("Decrypt");
     ui->senderPushBtn->setDisabled(false);
     ui->recieverPushBtn->setDisabled(true);
-    ui->rightLabel->setText("Encrypted");
-    ui->leftLabel->setText("Decrypted Original");
+    ui->rightLabel->setText("Decrypted");
+    ui->leftLabel->setText("Encrypted Photo");
 }
 void MainWindow::actionBtnClicked(){
     RSA rsa;
@@ -115,7 +115,7 @@ void MainWindow::actionBtnClicked(){
         QString filePathEncrypted = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/encrypted.bmp";
         QPixmap pix(filePathEncrypted);
         ui->encryptedPic->setPixmap(pix.scaled(QSize(300,300), Qt::KeepAspectRatio));
-        ui->performanceNON->setText(QString::number(aes.speed).append(" Mb/s"));
+        ui->performanceNON->setText(QString::number(aes.speed,'g',2).append(" Mb/s"));
     }else{
 //        Decrypt
 //        QString  password = rsa.DecryptRSA(privateKey,encPassword);
@@ -126,7 +126,7 @@ void MainWindow::actionBtnClicked(){
 
         QString filePathDecrypted = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/decrypted.bmp";
         QPixmap pixDec(filePathDecrypted);
-        ui->performanceNON->setText(QString::number(aes.speed).append(" Mb/s"));
+        ui->performanceNON->setText(QString::number(aes.speed,'g',2).append(" Mb/s"));
         ui->encryptedPic->setPixmap(pixDec.scaled(QSize(300,300), Qt::KeepAspectRatio));
     }
 }
