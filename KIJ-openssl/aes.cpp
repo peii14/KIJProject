@@ -58,13 +58,13 @@ void decryptPassword(){
     RSA * private_key;
     private_key = rsa.readCert("private_key.pem",false);
     // read pass
-    std::ifstream t("private_key.txt");
     cout<<"MASUK SINI"<<endl;
+    std::ifstream t("private_key.bin",std::ios::binary);
     t.seekg(0, std::ios::end);
     size_t size = t.tellg();
-    std::string encrypt(size, ' ');
+    std::string encrypt(25, ' ');
     t.seekg(0);
-    t.read(&encrypt[0], size); 
+    t.read(&encrypt[0], 25); 
     
     char *decrypt = NULL;
     decrypt = (char *)malloc(256);

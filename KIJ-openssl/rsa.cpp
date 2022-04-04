@@ -48,7 +48,7 @@ int rsa::private_decrypt(int flen, unsigned char* from, unsigned char* to, RSA* 
 
 void rsa::create_encrypted_file(char* encrypted, RSA* key_pair) {
 
-    FILE* encrypted_file = fopen("encrypted_file.txt", "w");
+    FILE* encrypted_file = fopen("encrypted_file.bin", "w");
     fwrite(encrypted, sizeof(*encrypted), RSA_size(key_pair), encrypted_file);
     fclose(encrypted_file);
 }
