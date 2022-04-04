@@ -1,0 +1,82 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"Qt-Secret/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "QtBigint::@97fc14b235efbb5a1def"
+		},
+		{
+			"id" : "QtBigintTest::@41cd30918b3defb1c60f"
+		},
+		{
+			"id" : "Qt-Secret::@d27b8ecd97718717dc37"
+		},
+		{
+			"id" : "Qt-SecretTest_AES::@4051c4e321833871d2bb"
+		},
+		{
+			"id" : "Qt-SecretTest_RSA::@4051c4e321833871d2bb"
+		},
+		{
+			"id" : "Qt-Secret-GUI::@ddffae524c50d01abe50"
+		},
+		{
+			"id" : "ZERO_CHECK::@4abf06259beec9d0a4c2"
+		}
+	],
+	"id" : "ALL_BUILD::@4abf06259beec9d0a4c2",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "Qt-Secret",
+		"source" : "Qt-Secret"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/CMakeFiles/ALL_BUILD",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/CMakeFiles/ALL_BUILD.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

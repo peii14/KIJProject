@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 6.0.2, 2022-03-29T22:59:14. -->
+<!-- Written by QtCreator 6.0.2, 2022-04-04T10:30:04. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -301,11 +301,14 @@
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">AES-KIJ</value>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.CMakeRunConfiguration.AES-KIJ</value>
     <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">AES-KIJ</value>
+    <value type="QString" key="RunConfiguration.Arguments">-lcrypto</value>
+    <value type="bool" key="RunConfiguration.Arguments.multi">true</value>
     <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseTerminal">false</value>
     <value type="QString" key="RunConfiguration.WorkingDirectory.default">/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Debug/AES-KIJ.app/Contents/MacOS</value>
    </valuemap>
    <value type="qlonglong" key="ProjectExplorer.Target.RunConfigurationCount">1</value>

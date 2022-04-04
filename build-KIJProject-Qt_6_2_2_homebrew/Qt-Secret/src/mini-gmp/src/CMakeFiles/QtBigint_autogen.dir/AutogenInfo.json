@@ -1,0 +1,106 @@
+{
+	"BUILD_DIR" : "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/QtBigint_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/src",
+	"CMAKE_EXECUTABLE" : "/Users/gayuhkautaman/Qt/Tools/CMake/CMake.app/Contents/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/src/CMakeLists.txt",
+		"/Applications/Qt Creator.app/Contents/Resources/package-manager/auto-setup.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "/Users/gayuhkautaman/Documents/code/cpp/KIJProject",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/src/bigint.h",
+			"MU",
+			"EWIEGA46WW/moc_bigint.cpp",
+			null
+		],
+		[
+			"/Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/src/mini-gmp.h",
+			"MU",
+			"EWIEGA46WW/moc_mini-gmp.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/QtBigint_autogen/include",
+	"INCLUDE_DIR_Debug" : "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/QtBigint_autogen/include_Debug",
+	"INCLUDE_DIR_MinSizeRel" : "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/QtBigint_autogen/include_MinSizeRel",
+	"INCLUDE_DIR_RelWithDebInfo" : "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/QtBigint_autogen/include_RelWithDebInfo",
+	"INCLUDE_DIR_Release" : "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/QtBigint_autogen/include_Release",
+	"MOC_COMPILATION_FILE" : "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/QtBigint_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "QtBigint_EXPORTS", "RELEASE_BUILD" ],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src",
+		"/Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/src",
+		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1",
+		"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include",
+		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include",
+		"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+		"-dM",
+		"-E",
+		"-c",
+		"/Users/gayuhkautaman/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/QtBigint_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE_Debug" : "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/QtBigint_autogen/moc_predefs_Debug.h",
+	"MOC_PREDEFS_FILE_MinSizeRel" : "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/QtBigint_autogen/moc_predefs_MinSizeRel.h",
+	"MOC_PREDEFS_FILE_RelWithDebInfo" : "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/QtBigint_autogen/moc_predefs_RelWithDebInfo.h",
+	"MOC_PREDEFS_FILE_Release" : "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/QtBigint_autogen/moc_predefs_Release.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : true,
+	"PARALLEL" : 10,
+	"PARSE_CACHE_FILE" : "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/CMakeFiles/QtBigint_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE_Debug" : "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/CMakeFiles/QtBigint_autogen.dir/ParseCache_Debug.txt",
+	"PARSE_CACHE_FILE_MinSizeRel" : "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/CMakeFiles/QtBigint_autogen.dir/ParseCache_MinSizeRel.txt",
+	"PARSE_CACHE_FILE_RelWithDebInfo" : "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/CMakeFiles/QtBigint_autogen.dir/ParseCache_RelWithDebInfo.txt",
+	"PARSE_CACHE_FILE_Release" : "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/CMakeFiles/QtBigint_autogen.dir/ParseCache_Release.txt",
+	"QT_MOC_EXECUTABLE" : "/opt/homebrew/share/qt/libexec/moc",
+	"QT_UIC_EXECUTABLE" : "/opt/homebrew/share/qt/libexec/uic",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 2,
+	"SETTINGS_FILE" : "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/CMakeFiles/QtBigint_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE_Debug" : "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/CMakeFiles/QtBigint_autogen.dir/AutogenUsed_Debug.txt",
+	"SETTINGS_FILE_MinSizeRel" : "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/CMakeFiles/QtBigint_autogen.dir/AutogenUsed_MinSizeRel.txt",
+	"SETTINGS_FILE_RelWithDebInfo" : "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/CMakeFiles/QtBigint_autogen.dir/AutogenUsed_RelWithDebInfo.txt",
+	"SETTINGS_FILE_Release" : "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/CMakeFiles/QtBigint_autogen.dir/AutogenUsed_Release.txt",
+	"SOURCES" : 
+	[
+		[
+			"/Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/src/bigint.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/src/mini-gmp.c",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

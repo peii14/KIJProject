@@ -1,0 +1,30 @@
+{
+	"BUILD_DIR" : "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/tests/Qt-SecretTest_AES_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/tests",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/tests",
+	"CMAKE_SOURCE_DIR" : "/Users/gayuhkautaman/Documents/code/cpp/KIJProject",
+	"INCLUDE_DIR" : "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/tests/Qt-SecretTest_AES_autogen/include",
+	"INCLUDE_DIR_Debug" : "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/tests/Qt-SecretTest_AES_autogen/include_Debug",
+	"INCLUDE_DIR_MinSizeRel" : "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/tests/Qt-SecretTest_AES_autogen/include_MinSizeRel",
+	"INCLUDE_DIR_RelWithDebInfo" : "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/tests/Qt-SecretTest_AES_autogen/include_RelWithDebInfo",
+	"INCLUDE_DIR_Release" : "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/tests/Qt-SecretTest_AES_autogen/include_Release",
+	"INPUTS" : 
+	[
+		"/Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/Qt-AES/unit_test/longText.txt"
+	],
+	"LOCK_FILE" : "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/tests/CMakeFiles/Qt-SecretTest_AES_autogen.dir/AutoRcc_res_VFNHXVIRJ6_Lock.lock",
+	"MULTI_CONFIG" : true,
+	"OPTIONS" : [ "-name", "res" ],
+	"OUTPUT_CHECKSUM" : "VFNHXVIRJ6",
+	"OUTPUT_NAME" : "qrc_res.cpp",
+	"RCC_EXECUTABLE" : "/opt/homebrew/share/qt/libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/tests/CMakeFiles/Qt-SecretTest_AES_autogen.dir/AutoRcc_res_VFNHXVIRJ6_Used.txt",
+	"SETTINGS_FILE_Debug" : "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/tests/CMakeFiles/Qt-SecretTest_AES_autogen.dir/AutoRcc_res_VFNHXVIRJ6_Used_Debug.txt",
+	"SETTINGS_FILE_MinSizeRel" : "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/tests/CMakeFiles/Qt-SecretTest_AES_autogen.dir/AutoRcc_res_VFNHXVIRJ6_Used_MinSizeRel.txt",
+	"SETTINGS_FILE_RelWithDebInfo" : "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/tests/CMakeFiles/Qt-SecretTest_AES_autogen.dir/AutoRcc_res_VFNHXVIRJ6_Used_RelWithDebInfo.txt",
+	"SETTINGS_FILE_Release" : "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/tests/CMakeFiles/Qt-SecretTest_AES_autogen.dir/AutoRcc_res_VFNHXVIRJ6_Used_Release.txt",
+	"SOURCE" : "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/Qt-AES/res.qrc",
+	"VERBOSITY" : 0
+}

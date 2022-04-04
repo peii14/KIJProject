@@ -31,6 +31,22 @@ dependencies: \
   /opt/homebrew/lib/QtGui.framework/Headers/qguiapplication_platform.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QLabel \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qlabel.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QLineEdit \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qlineedit.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qframe.h \
+  /opt/homebrew/lib/QtGui.framework/Headers/qtextcursor.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/qshareddata.h \
+  /opt/homebrew/lib/QtGui.framework/Headers/qtextformat.h \
+  /opt/homebrew/lib/QtGui.framework/Headers/qbrush.h \
+  /opt/homebrew/lib/QtGui.framework/Headers/qcolor.h \
+  /opt/homebrew/lib/QtGui.framework/Headers/qfont.h \
+  /opt/homebrew/lib/QtGui.framework/Headers/qpen.h \
+  /opt/homebrew/lib/QtGui.framework/Headers/qtextoption.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/qchar.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/qstringview.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/qmetatype.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/qlist.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/qmargins.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QMenuBar \
@@ -49,4 +65,10 @@ dependencies: \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qtoolbar.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget \
   /Users/gayuhkautaman/Documents/code/cpp/KIJProject/aes.h \
-  /Users/gayuhkautaman/Documents/code/cpp/KIJProject/bitmap.h
+  /Users/gayuhkautaman/Documents/code/cpp/KIJProject/bitmap.h \
+  /Users/gayuhkautaman/Documents/code/cpp/KIJProject/rsa.h \
+  /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/Qt-RSA/qrsaencryption.h \
+  /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/Qt-RSA/./../qtsecret_global.h \
+  /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/src/bigint.h \
+  /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/src/mini-gmp.h \
+  /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/src/minigmp_global.h

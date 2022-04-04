@@ -1,0 +1,56 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"ADD_CUSTOM_TARGET",
+			"initDoc",
+			"initAll"
+		],
+		"files" : 
+		[
+			"Qt-Secret/src/mini-gmp/CMake/QuasarAppCITargets.cmake",
+			"Qt-Secret/src/mini-gmp/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 50,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 547,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 537,
+				"parent" : 2
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "ZERO_CHECK::@45bb71c845b8630a2712"
+		}
+	],
+	"id" : "doc::@45bb71c845b8630a2712",
+	"name" : "doc",
+	"paths" : 
+	{
+		"build" : "Qt-Secret/src/mini-gmp",
+		"source" : "Qt-Secret/src/mini-gmp"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

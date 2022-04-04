@@ -24,6 +24,9 @@ AES-KIJ_IS_TOP_LEVEL:STATIC=ON
 AES-KIJ_SOURCE_DIR:STATIC=/Users/gayuhkautaman/Documents/code/cpp/KIJProject
 
 //Path to a program.
+CCACHE_PROGRAM:FILEPATH=CCACHE_PROGRAM-NOTFOUND
+
+//Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=CMAKE_ADDR2LINE-NOTFOUND
 
 //Path to a program.
@@ -214,6 +217,9 @@ CMAKE_STRIP:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/Xcode
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//Path to a program.
+DOXYGEN_EXECUTABLE:FILEPATH=DOXYGEN_EXECUTABLE-NOTFOUND
+
 //Include for OpenGL on OS X
 OPENGL_INCLUDE_DIR:PATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/OpenGL.framework
 
@@ -246,6 +252,21 @@ QT_DIR:PATH=/opt/homebrew/lib/cmake/Qt6
 
 //No help, variable specified on the command line.
 QT_QMAKE_EXECUTABLE:STRING=/opt/homebrew/bin/qmake
+
+//Path to a program.
+Q_MAKE_EXE:FILEPATH=/opt/homebrew/bin/qmake
+
+//Value Computed by CMake
+Qt-Secret_BINARY_DIR:STATIC=/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret
+
+//Value Computed by CMake
+Qt-Secret_IS_TOP_LEVEL:STATIC=OFF
+
+//Dependencies for the target
+Qt-Secret_LIB_DEPENDS:STATIC=general;Qt6::Core;general;QtBigint;
+
+//Value Computed by CMake
+Qt-Secret_SOURCE_DIR:STATIC=/Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret
 
 //The directory containing a CMake configuration file for Qt6Concurrent.
 Qt6Concurrent_DIR:PATH=/opt/homebrew/lib/cmake/Qt6Concurrent
@@ -298,6 +319,9 @@ Qt6Qml_DIR:PATH=/opt/homebrew/lib/cmake/Qt6Qml
 //The directory containing a CMake configuration file for Qt6Quick.
 Qt6Quick_DIR:PATH=/opt/homebrew/lib/cmake/Qt6Quick
 
+//The directory containing a CMake configuration file for Qt6Test.
+Qt6Test_DIR:PATH=/opt/homebrew/lib/cmake/Qt6Test
+
 //The directory containing a CMake configuration file for Qt6WidgetsTools.
 Qt6WidgetsTools_DIR:PATH=/opt/homebrew/lib/cmake/Qt6WidgetsTools
 
@@ -309,6 +333,15 @@ Qt6_DIR:PATH=/opt/homebrew/lib/cmake/Qt6
 
 //The directory containing a CMake configuration file for Qt6charts.
 Qt6charts_DIR:PATH=/opt/homebrew/lib/cmake/Qt6Charts
+
+//Value Computed by CMake
+QtBigint_BINARY_DIR:STATIC=/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src
+
+//Value Computed by CMake
+QtBigint_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+QtBigint_SOURCE_DIR:STATIC=/Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/src
 
 //Path to a library.
 WrapOpenGL_AGL:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/AGL.framework
@@ -325,11 +358,11 @@ pkgcfg_lib__OPENSSL_ssl:FILEPATH=/opt/homebrew/Cellar/openssl@3/3.0.2/lib/libssl
 ########################
 
 //Stored Xcode object GUID
-AES-KIJ_GUID_CMAKE:INTERNAL=F5A18993DBDE479B873ADF6B
+AES-KIJ_GUID_CMAKE:INTERNAL=74092A4B39BA4FADB7D5551E
 //Stored Xcode object GUID
-AES-KIJ_autogen_GUID_CMAKE:INTERNAL=14D70E22B01442CD8F843BA9
+AES-KIJ_autogen_GUID_CMAKE:INTERNAL=B486B6BE716B40F0A5573112
 //Stored Xcode object GUID
-ALL_BUILD_GUID_CMAKE:INTERNAL=FB3CB7C0C8BE453F82A732D4
+ALL_BUILD_GUID_CMAKE:INTERNAL=AD3C9CC8723F43CA8D4A4DC0
 //ADVANCED property for variable: CMAKE_ADDR2LINE
 CMAKE_ADDR2LINE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_AR
@@ -406,7 +439,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -478,7 +511,11 @@ OPENSSL_SSL_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
 PKG_CONFIG_EXECUTABLE-ADVANCED:INTERNAL=1
 //Stored Xcode object GUID
-PROJECT_AES-KIJ_GUID_CMAKE:INTERNAL=59E795C64F6F436984FB8808
+PROJECT_AES-KIJ_GUID_CMAKE:INTERNAL=C5DDEBC986654E7DBB7D869E
+//Stored Xcode object GUID
+PROJECT_Qt-Secret_GUID_CMAKE:INTERNAL=DD2FA5BD0E13432DB6E063FC
+//Stored Xcode object GUID
+PROJECT_QtBigint_GUID_CMAKE:INTERNAL=99BABA932E4E4609BDED7858
 //Qt feature: abstractbutton (from target Qt6::Widgets)
 QT_FEATURE_abstractbutton:INTERNAL=ON
 //Qt feature: abstractslider (from target Qt6::Widgets)
@@ -819,6 +856,8 @@ QT_FEATURE_ipv6ifname:INTERNAL=ON
 QT_FEATURE_islamiccivilcalendar:INTERNAL=ON
 //Qt feature: itemmodel (from target Qt6::Core)
 QT_FEATURE_itemmodel:INTERNAL=ON
+//Qt feature: itemmodeltester (from target Qt6::Test)
+QT_FEATURE_itemmodeltester:INTERNAL=ON
 //Qt feature: itemviews (from target Qt6::Widgets)
 QT_FEATURE_itemviews:INTERNAL=ON
 //Qt feature: jalalicalendar (from target Qt6::Core)
@@ -1203,6 +1242,8 @@ QT_FEATURE_tabwidget:INTERNAL=ON
 QT_FEATURE_temporaryfile:INTERNAL=ON
 //Qt feature: testlib (from target Qt6::Core)
 QT_FEATURE_testlib:INTERNAL=ON
+//Qt feature: testlib_selfcover (from target Qt6::Test)
+QT_FEATURE_testlib_selfcover:INTERNAL=OFF
 //Qt feature: textbrowser (from target Qt6::Widgets)
 QT_FEATURE_textbrowser:INTERNAL=ON
 //Qt feature: textdate (from target Qt6::Core)
@@ -1259,6 +1300,8 @@ QT_FEATURE_use_bfd_linker:INTERNAL=OFF
 QT_FEATURE_use_gold_linker:INTERNAL=OFF
 //Qt feature: use_lld_linker (from target Qt6::Core)
 QT_FEATURE_use_lld_linker:INTERNAL=OFF
+//Qt feature: valgrind (from target Qt6::Test)
+QT_FEATURE_valgrind:INTERNAL=ON
 //Qt feature: validator (from target Qt6::Gui)
 QT_FEATURE_validator:INTERNAL=ON
 //Qt feature: vkgen (from target Qt6::Gui)
@@ -1316,7 +1359,31 @@ QT_FEATURE_xrender:INTERNAL=OFF
 //Qt feature: zstd (from target Qt6::Core)
 QT_FEATURE_zstd:INTERNAL=ON
 //Stored Xcode object GUID
-ZERO_CHECK_GUID_CMAKE:INTERNAL=39C2A40E9CE24A79A4C0A534
+Qt-Secret-GUI_GUID_CMAKE:INTERNAL=32C7B74DBA744C61B3CDB474
+//Stored Xcode object GUID
+Qt-Secret-GUI_autogen_GUID_CMAKE:INTERNAL=3382CC9483AA4A0CBCCDD044
+//Stored Xcode object GUID
+Qt-SecretTest_AES_GUID_CMAKE:INTERNAL=1CAD1B7FA17C40A3BD5958C8
+//Stored Xcode object GUID
+Qt-SecretTest_AES_autogen_GUID_CMAKE:INTERNAL=0047708B777C494E8EFB59D2
+//Stored Xcode object GUID
+Qt-SecretTest_RSA_GUID_CMAKE:INTERNAL=6CEABC750D8A4A589050FA9B
+//Stored Xcode object GUID
+Qt-SecretTest_RSA_autogen_GUID_CMAKE:INTERNAL=96C0F3311B844F56B9742D98
+//Stored Xcode object GUID
+Qt-Secret_GUID_CMAKE:INTERNAL=4577D11F973840D99B1CEEAB
+//Stored Xcode object GUID
+Qt-Secret_autogen_GUID_CMAKE:INTERNAL=0BF3820F86AE46FD8140164F
+//Stored Xcode object GUID
+QtBigintTest_GUID_CMAKE:INTERNAL=DAA4F393A4B54C80888FB109
+//Stored Xcode object GUID
+QtBigintTest_autogen_GUID_CMAKE:INTERNAL=443D6256CACE40BB8315F3EB
+//Stored Xcode object GUID
+QtBigint_GUID_CMAKE:INTERNAL=48626AFAC31644CF9A09E7F5
+//Stored Xcode object GUID
+QtBigint_autogen_GUID_CMAKE:INTERNAL=257779348B2644E79DDC54EE
+//Stored Xcode object GUID
+ZERO_CHECK_GUID_CMAKE:INTERNAL=F33437E5350B4BF186C25AF7
 _OPENSSL_CFLAGS:INTERNAL=-I/opt/homebrew/Cellar/openssl@3/3.0.2/include
 _OPENSSL_CFLAGS_I:INTERNAL=
 _OPENSSL_CFLAGS_OTHER:INTERNAL=
@@ -1356,9 +1423,29 @@ _Qt6_LINGUIST_TOOLS_DIR:INTERNAL=/opt/homebrew/lib/cmake/Qt6LinguistTools
 __pkg_config_arguments__OPENSSL:INTERNAL=QUIET;openssl
 __pkg_config_checked__OPENSSL:INTERNAL=1
 __qt_qml_macros_module_base_dir:INTERNAL=/opt/homebrew/lib/cmake/Qt6Qml
+//Stored Xcode object GUID
+deployTestQt-SecretAES_GUID_CMAKE:INTERNAL=1EEFA56B473F485E8B5DFCA8
+//Stored Xcode object GUID
+deployTestQt-SecretRSA_GUID_CMAKE:INTERNAL=ACF25E959EDC421B9A66DFD5
+//Stored Xcode object GUID
+deployTestQtBigint_GUID_CMAKE:INTERNAL=87085C16DD834B04B8DC925A
+//Stored Xcode object GUID
+deploy_GUID_CMAKE:INTERNAL=7228C462D79B4D7CB06409AF
+//Stored Xcode object GUID
+doc_GUID_CMAKE:INTERNAL=BDF65729CC0D45528328BFB3
 //ADVANCED property for variable: pkgcfg_lib__OPENSSL_crypto
 pkgcfg_lib__OPENSSL_crypto-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib__OPENSSL_ssl
 pkgcfg_lib__OPENSSL_ssl-ADVANCED:INTERNAL=1
 prefix_result:INTERNAL=/opt/homebrew/Cellar/openssl@3/3.0.2/lib
+//Stored Xcode object GUID
+release_GUID_CMAKE:INTERNAL=FA56749849AD4EA282F764EB
+//Stored Xcode object GUID
+testQt-SecretAES_GUID_CMAKE:INTERNAL=084E502005AE495A9BF91BAD
+//Stored Xcode object GUID
+testQt-SecretRSA_GUID_CMAKE:INTERNAL=04660628498B47D9B7077405
+//Stored Xcode object GUID
+testQtBigint_GUID_CMAKE:INTERNAL=AF73E1249FD3487BB86BD6F8
+//Stored Xcode object GUID
+test_GUID_CMAKE:INTERNAL=6D99B5E6B13F4B3DBA8E7021
 

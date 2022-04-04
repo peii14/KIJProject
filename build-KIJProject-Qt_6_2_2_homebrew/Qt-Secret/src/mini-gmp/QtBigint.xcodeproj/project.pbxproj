@@ -1,0 +1,2417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		257779348B2644E79DDC54EE /* QtBigint_autogen */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3587B43C7972418F82645115 /* Build configuration list for PBXAggregateTarget "QtBigint_autogen" */;
+			buildPhases = (
+				8C240BD76186407F2A9B4EFD /* Generate src/CMakeFiles/QtBigint_autogen */,
+			);
+			dependencies = (
+				E69394612FB84F0D92EF4F06 /* PBXTargetDependency */,
+			);
+			name = QtBigint_autogen;
+			productName = QtBigint_autogen;
+		};
+		443D6256CACE40BB8315F3EB /* QtBigintTest_autogen */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 43C1EC7D83EB4A28AB985C28 /* Build configuration list for PBXAggregateTarget "QtBigintTest_autogen" */;
+			buildPhases = (
+				378A2213F21425BED89A38C7 /* Generate tests/CMakeFiles/QtBigintTest_autogen */,
+			);
+			dependencies = (
+				0A7B06BCAFEC4B07B6F785C9 /* PBXTargetDependency */,
+				2A885A95383C4D7CB2263184 /* PBXTargetDependency */,
+			);
+			name = QtBigintTest_autogen;
+			productName = QtBigintTest_autogen;
+		};
+		6D99B5E6B13F4B3DBA8E7021 /* test */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C4E32CDBD1E7431E9015112A /* Build configuration list for PBXAggregateTarget "test" */;
+			buildPhases = (
+			);
+			dependencies = (
+				A86920BCC228480AA8F22593 /* PBXTargetDependency */,
+				C5CCDC72CB3C447C89106E2F /* PBXTargetDependency */,
+			);
+			name = test;
+			productName = test;
+		};
+		7228C462D79B4D7CB06409AF /* deploy */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E67CB2FA87714B6699E67796 /* Build configuration list for PBXAggregateTarget "deploy" */;
+			buildPhases = (
+			);
+			dependencies = (
+				ADCE21A5BEAC4E8F9B53ED88 /* PBXTargetDependency */,
+			);
+			name = deploy;
+			productName = deploy;
+		};
+		87085C16DD834B04B8DC925A /* deployTestQtBigint */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 990A77DD7A0E4F83B703055D /* Build configuration list for PBXAggregateTarget "deployTestQtBigint" */;
+			buildPhases = (
+				51A1F086984562D81623D852 /* Generate tests/CMakeFiles/deployTestQtBigint */,
+			);
+			dependencies = (
+				118BF4DC508B49748FD27890 /* PBXTargetDependency */,
+			);
+			name = deployTestQtBigint;
+			productName = deployTestQtBigint;
+		};
+		AD3C9CC8723F43CA8D4A4DC0 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3A453B9845234B0F96782694 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				C6BA5851C61CF559AC1C94BF /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				3EFAB56089D34456962AA884 /* PBXTargetDependency */,
+				C0BD3EB1B6D24697AAC2C235 /* PBXTargetDependency */,
+				F842500E84254D738544AF82 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		AF73E1249FD3487BB86BD6F8 /* testQtBigint */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9A41611C52C44F7A8812BC73 /* Build configuration list for PBXAggregateTarget "testQtBigint" */;
+			buildPhases = (
+				7B79AD0706F4FA69A199E6BA /* Generate tests/CMakeFiles/testQtBigint */,
+			);
+			dependencies = (
+				CF2538AC7317482F905D5AA5 /* PBXTargetDependency */,
+				0E41DB534D5C492CA35D09F3 /* PBXTargetDependency */,
+			);
+			name = testQtBigint;
+			productName = testQtBigint;
+		};
+		BDF65729CC0D45528328BFB3 /* doc */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C9189EF4041B42DF918602BC /* Build configuration list for PBXAggregateTarget "doc" */;
+			buildPhases = (
+			);
+			dependencies = (
+				27628C160DD64A808D27221F /* PBXTargetDependency */,
+			);
+			name = doc;
+			productName = doc;
+		};
+		F33437E5350B4BF186C25AF7 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C7ED19FB35754B9B97C66DE7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				A424A7866BCBFDA702A5C8B5 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		FA56749849AD4EA282F764EB /* release */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FE2FE7329F284E0CA167C8AC /* Build configuration list for PBXAggregateTarget "release" */;
+			buildPhases = (
+			);
+			dependencies = (
+				8713D712AD1945E9AD650F6D /* PBXTargetDependency */,
+			);
+			name = release;
+			productName = release;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		05D74D7A9B854DF18E558AC9 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/tests/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 6D414ECB493646CDAD59467D /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/tests/CMakeLists.txt */; };
+		4E64B76352C546F6ADC33588 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/src/mini-gmp.c */ = {isa = PBXBuildFile; fileRef = A23C68F615C549B39E3C38E9 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/src/mini-gmp.c */; };
+		7C383FE9EA9F434C8C546AA4 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests/QtBigintTest_autogen/mocs_compilation.cpp */ = {isa = PBXBuildFile; fileRef = 8F73FC10EC1348E88C89D111 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests/QtBigintTest_autogen/mocs_compilation.cpp */; };
+		CF6BACB812F946C3BEC69E1D /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/src/bigint.cpp */ = {isa = PBXBuildFile; fileRef = 930201C4DE904741BF2B3E70 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/src/bigint.cpp */; };
+		D6F307E3A666495D843A227D /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/QtBigint_autogen/mocs_compilation.cpp */ = {isa = PBXBuildFile; fileRef = DD060BDDBC07494EBF1E76CB /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/QtBigint_autogen/mocs_compilation.cpp */; };
+		DF3E8EE547AF4A70844A52E7 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/tests/tst_arithmetictests.cpp */ = {isa = PBXBuildFile; fileRef = 08A89B2AC1A548E9B138F3CE /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/tests/tst_arithmetictests.cpp */; };
+		EC482C067CD84F4C94DB8AD3 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = ED38EF6C5B4B4597BB312E7B /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/src/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0E2BD06011B44473888AFECC /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		4D7EDD313069401BAD2EAFED /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		7DA225372EC9431FAA072222 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		D7D48DE14CFC46D78D4C7753 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		11E3B9C7F89446BF9FF0105C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99BABA932E4E4609BDED7858 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F33437E5350B4BF186C25AF7;
+			remoteInfo = ZERO_CHECK;
+		};
+		14638046C9224317A7AB0D1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99BABA932E4E4609BDED7858 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F33437E5350B4BF186C25AF7;
+			remoteInfo = ZERO_CHECK;
+		};
+		1491A0C4289C4EF3883EF662 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99BABA932E4E4609BDED7858 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F33437E5350B4BF186C25AF7;
+			remoteInfo = ZERO_CHECK;
+		};
+		161BB0FB08524848BD6E2598 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99BABA932E4E4609BDED7858 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48626AFAC31644CF9A09E7F5;
+			remoteInfo = QtBigint;
+		};
+		26F275E2B711408790C202F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99BABA932E4E4609BDED7858 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF73E1249FD3487BB86BD6F8;
+			remoteInfo = testQtBigint;
+		};
+		291F4294A92F45599FA0E7D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99BABA932E4E4609BDED7858 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAA4F393A4B54C80888FB109;
+			remoteInfo = QtBigintTest;
+		};
+		3636C899340D484F9D783E8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99BABA932E4E4609BDED7858 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48626AFAC31644CF9A09E7F5;
+			remoteInfo = QtBigint;
+		};
+		378920B877DB49B2A078E4BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99BABA932E4E4609BDED7858 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 443D6256CACE40BB8315F3EB;
+			remoteInfo = QtBigintTest_autogen;
+		};
+		390794D3BE90411B9101684F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99BABA932E4E4609BDED7858 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 257779348B2644E79DDC54EE;
+			remoteInfo = QtBigint_autogen;
+		};
+		4B7BF5DACD704FD7B89894D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99BABA932E4E4609BDED7858 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F33437E5350B4BF186C25AF7;
+			remoteInfo = ZERO_CHECK;
+		};
+		531A23CC1D994E8EBEF07491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99BABA932E4E4609BDED7858 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48626AFAC31644CF9A09E7F5;
+			remoteInfo = QtBigint;
+		};
+		A7375430633346F9B51FDE07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99BABA932E4E4609BDED7858 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F33437E5350B4BF186C25AF7;
+			remoteInfo = ZERO_CHECK;
+		};
+		C3B9E7A572DF4A75A07C2E12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99BABA932E4E4609BDED7858 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F33437E5350B4BF186C25AF7;
+			remoteInfo = ZERO_CHECK;
+		};
+		C765BD2AFAB4416BB41EE756 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99BABA932E4E4609BDED7858 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F33437E5350B4BF186C25AF7;
+			remoteInfo = ZERO_CHECK;
+		};
+		C8C09BE6DF474290BB9CE7DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99BABA932E4E4609BDED7858 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F33437E5350B4BF186C25AF7;
+			remoteInfo = ZERO_CHECK;
+		};
+		DF556F5C620E4F35A5C0303A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99BABA932E4E4609BDED7858 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87085C16DD834B04B8DC925A;
+			remoteInfo = deployTestQtBigint;
+		};
+		EAC2D926CBCA4553A85667FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99BABA932E4E4609BDED7858 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F33437E5350B4BF186C25AF7;
+			remoteInfo = ZERO_CHECK;
+		};
+		EB7340E45CF94BCFBBA7AA48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99BABA932E4E4609BDED7858 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F33437E5350B4BF186C25AF7;
+			remoteInfo = ZERO_CHECK;
+		};
+		FB8CD33AD06F4CF7975B02A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99BABA932E4E4609BDED7858 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F33437E5350B4BF186C25AF7;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08A89B2AC1A548E9B138F3CE /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/tests/tst_arithmetictests.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tst_arithmetictests.cpp; path = tests/tst_arithmetictests.cpp; sourceTree = SOURCE_ROOT; };
+		292FCA51F6B84710A5AD0AED /* QtBigintTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = QtBigintTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		588D1BCC4E3C42DAA81D89BC /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/tests/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = tests/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		5B268550321E4AEBADFCE66D /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/tests/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = tests/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		5C8D2E9E068546B483C25C52 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6D414ECB493646CDAD59467D /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/tests/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = tests/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		79500788EA544D5EBA7ECB01 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8DEE20C84124453BADFBC663 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/tests/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = tests/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8F73FC10EC1348E88C89D111 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests/QtBigintTest_autogen/mocs_compilation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mocs_compilation.cpp; path = "../../../build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests/QtBigintTest_autogen/mocs_compilation.cpp"; sourceTree = SOURCE_ROOT; };
+		930201C4DE904741BF2B3E70 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/src/bigint.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = bigint.cpp; path = src/bigint.cpp; sourceTree = SOURCE_ROOT; };
+		A23C68F615C549B39E3C38E9 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/src/mini-gmp.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "mini-gmp.c"; path = "src/mini-gmp.c"; sourceTree = SOURCE_ROOT; };
+		AA32124610D44DD6B6A1A972 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B927350C5F324CCBBF7E0EB3 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C52089B523B645CD90D85E69 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/tests/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = tests/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C56CC0ED77AA4C51B1445376 /* QtBigint */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libQtBigint.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD060BDDBC07494EBF1E76CB /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/QtBigint_autogen/mocs_compilation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mocs_compilation.cpp; path = "../../../build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/QtBigint_autogen/mocs_compilation.cpp"; sourceTree = SOURCE_ROOT; };
+		ED38EF6C5B4B4597BB312E7B /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F92040551CC645B4AB66C9E4 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4ADE1E1BFFAD4DD997A46269 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB3E45F016A5465DA1738BA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06C46533F4804C22B9C30F14 = {
+			isa = PBXGroup;
+			children = (
+				B5A83CC51E0C4D799C0561B9 /* release */,
+				7C3CEA8C67154743A600BBF2 /* deploy */,
+				96ADDE83C8E74946931A15A2 /* doc */,
+				49C8B212CE024941BF263922 /* ALL_BUILD */,
+				BB95F2E671964A5E8146CD1F /* QtBigint */,
+				656512B8FD7643818B78BE97 /* QtBigint_autogen */,
+				B4F7F81E288D476F839F61DC /* test */,
+				2EB13011E87C4276B2FA63A4 /* testQtBigint */,
+				B45D36D0B8DF45079BCB9527 /* deployTestQtBigint */,
+				7457F3BA4D3948AD866F8C8A /* QtBigintTest */,
+				2C7771483C844C33B3306696 /* QtBigintTest_autogen */,
+				364E088DAF7341FEA61772F3 /* Products */,
+				70EDE01FA5284417B780B131 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		07217A168495491D936E8FA2 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		0B55B162C44441B7885E11BC /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				08A89B2AC1A548E9B138F3CE /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/tests/tst_arithmetictests.cpp */,
+				8F73FC10EC1348E88C89D111 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests/QtBigintTest_autogen/mocs_compilation.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		2C7771483C844C33B3306696 /* QtBigintTest_autogen */ = {
+			isa = PBXGroup;
+			children = (
+				07217A168495491D936E8FA2 /* CMake Rules */,
+				5B268550321E4AEBADFCE66D /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/tests/CMakeLists.txt */,
+			);
+			name = QtBigintTest_autogen;
+			sourceTree = "<group>";
+		};
+		2CBA56D5388343F7893B8EB8 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		2EB13011E87C4276B2FA63A4 /* testQtBigint */ = {
+			isa = PBXGroup;
+			children = (
+				2CBA56D5388343F7893B8EB8 /* CMake Rules */,
+				C52089B523B645CD90D85E69 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/tests/CMakeLists.txt */,
+			);
+			name = testQtBigint;
+			sourceTree = "<group>";
+		};
+		364E088DAF7341FEA61772F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C56CC0ED77AA4C51B1445376 /* QtBigint */,
+				292FCA51F6B84710A5AD0AED /* QtBigintTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49C8B212CE024941BF263922 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				8DF4966FDE7D4D668D6667EC /* CMake Rules */,
+				79500788EA544D5EBA7ECB01 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		656512B8FD7643818B78BE97 /* QtBigint_autogen */ = {
+			isa = PBXGroup;
+			children = (
+				A32AB79B7558449EADF0D046 /* CMake Rules */,
+				F92040551CC645B4AB66C9E4 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/src/CMakeLists.txt */,
+			);
+			name = QtBigint_autogen;
+			sourceTree = "<group>";
+		};
+		6604AAD454064C9FACA89BDD /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				930201C4DE904741BF2B3E70 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/src/bigint.cpp */,
+				A23C68F615C549B39E3C38E9 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/src/mini-gmp.c */,
+				DD060BDDBC07494EBF1E76CB /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/QtBigint_autogen/mocs_compilation.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		70EDE01FA5284417B780B131 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7457F3BA4D3948AD866F8C8A /* QtBigintTest */ = {
+			isa = PBXGroup;
+			children = (
+				0B55B162C44441B7885E11BC /* Source Files */,
+				6D414ECB493646CDAD59467D /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/tests/CMakeLists.txt */,
+			);
+			name = QtBigintTest;
+			sourceTree = "<group>";
+		};
+		7C3CEA8C67154743A600BBF2 /* deploy */ = {
+			isa = PBXGroup;
+			children = (
+				AA32124610D44DD6B6A1A972 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/CMakeLists.txt */,
+			);
+			name = deploy;
+			sourceTree = "<group>";
+		};
+		8DF4966FDE7D4D668D6667EC /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		96ADDE83C8E74946931A15A2 /* doc */ = {
+			isa = PBXGroup;
+			children = (
+				B927350C5F324CCBBF7E0EB3 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/CMakeLists.txt */,
+			);
+			name = doc;
+			sourceTree = "<group>";
+		};
+		9E5FB4118454493AAB62579B /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		A32AB79B7558449EADF0D046 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		B45D36D0B8DF45079BCB9527 /* deployTestQtBigint */ = {
+			isa = PBXGroup;
+			children = (
+				9E5FB4118454493AAB62579B /* CMake Rules */,
+				8DEE20C84124453BADFBC663 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/tests/CMakeLists.txt */,
+			);
+			name = deployTestQtBigint;
+			sourceTree = "<group>";
+		};
+		B4F7F81E288D476F839F61DC /* test */ = {
+			isa = PBXGroup;
+			children = (
+				588D1BCC4E3C42DAA81D89BC /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/tests/CMakeLists.txt */,
+			);
+			name = test;
+			sourceTree = "<group>";
+		};
+		B5A83CC51E0C4D799C0561B9 /* release */ = {
+			isa = PBXGroup;
+			children = (
+				5C8D2E9E068546B483C25C52 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/CMakeLists.txt */,
+			);
+			name = release;
+			sourceTree = "<group>";
+		};
+		BB95F2E671964A5E8146CD1F /* QtBigint */ = {
+			isa = PBXGroup;
+			children = (
+				6604AAD454064C9FACA89BDD /* Source Files */,
+				ED38EF6C5B4B4597BB312E7B /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/src/CMakeLists.txt */,
+			);
+			name = QtBigint;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48626AFAC31644CF9A09E7F5 /* QtBigint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6536F2246FC247858FEDA8B1 /* Build configuration list for PBXNativeTarget "QtBigint" */;
+			buildPhases = (
+				CBE04572F6CA43729933BE86 /* Sources */,
+				4ADE1E1BFFAD4DD997A46269 /* Frameworks */,
+				23CF0CE427F35834108AF5C9 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19023BD0FFA144928C2FB62A /* PBXTargetDependency */,
+				08FED6FF1A17499C98D3CE33 /* PBXTargetDependency */,
+			);
+			name = QtBigint;
+			productName = QtBigint;
+			productReference = C56CC0ED77AA4C51B1445376 /* QtBigint */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		DAA4F393A4B54C80888FB109 /* QtBigintTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D825507C9534273B8C91345 /* Build configuration list for PBXNativeTarget "QtBigintTest" */;
+			buildPhases = (
+				43E94C797B0D4186ADD20972 /* Sources */,
+				FB3E45F016A5465DA1738BA7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE9D4612215049B6983036C8 /* PBXTargetDependency */,
+				AF5B866B4D2D478AA5F0BE01 /* PBXTargetDependency */,
+				C4467D4B8D364E4C9F909717 /* PBXTargetDependency */,
+			);
+			name = QtBigintTest;
+			productName = QtBigintTest;
+			productReference = 292FCA51F6B84710A5AD0AED /* QtBigintTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99BABA932E4E4609BDED7858 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1320;
+			};
+			buildConfigurationList = 8A25A7332CF24B38B3C119CF /* Build configuration list for PBXProject "QtBigint" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				D7D48DE14CFC46D78D4C7753 /* Debug */,
+				7DA225372EC9431FAA072222 /* Release */,
+				4D7EDD313069401BAD2EAFED /* MinSizeRel */,
+				0E2BD06011B44473888AFECC /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 06C46533F4804C22B9C30F14;
+			projectDirPath = "../../../../Qt-Secret/src/mini-gmp";
+			projectRoot = "";
+			targets = (
+				AD3C9CC8723F43CA8D4A4DC0 /* ALL_BUILD */,
+				48626AFAC31644CF9A09E7F5 /* QtBigint */,
+				DAA4F393A4B54C80888FB109 /* QtBigintTest */,
+				443D6256CACE40BB8315F3EB /* QtBigintTest_autogen */,
+				257779348B2644E79DDC54EE /* QtBigint_autogen */,
+				F33437E5350B4BF186C25AF7 /* ZERO_CHECK */,
+				7228C462D79B4D7CB06409AF /* deploy */,
+				87085C16DD834B04B8DC925A /* deployTestQtBigint */,
+				BDF65729CC0D45528328BFB3 /* doc */,
+				FA56749849AD4EA282F764EB /* release */,
+				6D99B5E6B13F4B3DBA8E7021 /* test */,
+				AF73E1249FD3487BB86BD6F8 /* testQtBigint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		070002136A891408C4188293 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		1006C44D9F8B6009EA628CB4 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		2315C5063E2E726D69C28297 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		23CF0CE427F35834108AF5C9 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src
+  /Users/gayuhkautaman/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_symlink_library /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/Debug/libQtBigint.6.1.2.dylib /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/Debug/libQtBigint.6.1.2.dylib /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/Debug/libQtBigint.dylib
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src
+  /Users/gayuhkautaman/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_symlink_library /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/Release/libQtBigint.6.1.2.dylib /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/Release/libQtBigint.6.1.2.dylib /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/Release/libQtBigint.dylib
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src
+  /Users/gayuhkautaman/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_symlink_library /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/MinSizeRel/libQtBigint.6.1.2.dylib /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/MinSizeRel/libQtBigint.6.1.2.dylib /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/MinSizeRel/libQtBigint.dylib
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src
+  /Users/gayuhkautaman/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_symlink_library /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/RelWithDebInfo/libQtBigint.6.1.2.dylib /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/RelWithDebInfo/libQtBigint.6.1.2.dylib /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/RelWithDebInfo/libQtBigint.dylib
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		2AD92A18520B1187C2E96372 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		378A2213F21425BED89A38C7 /* Generate tests/CMakeFiles/QtBigintTest_autogen */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate tests/CMakeFiles/QtBigintTest_autogen";
+			outputPaths = (
+"/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests/CMakeFiles/QtBigintTest_autogen","/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests/QtBigintTest_autogen/mocs_compilation.cpp"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests
+  /Users/gayuhkautaman/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests/CMakeFiles/QtBigintTest_autogen.dir/AutogenInfo.json Debug
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests
+  /Users/gayuhkautaman/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests/CMakeFiles/QtBigintTest_autogen.dir/AutogenInfo.json Release
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests
+  /Users/gayuhkautaman/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests/CMakeFiles/QtBigintTest_autogen.dir/AutogenInfo.json MinSizeRel
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests
+  /Users/gayuhkautaman/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests/CMakeFiles/QtBigintTest_autogen.dir/AutogenInfo.json RelWithDebInfo
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		51A1F086984562D81623D852 /* Generate tests/CMakeFiles/deployTestQtBigint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate tests/CMakeFiles/deployTestQtBigint";
+			outputPaths = (
+"/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests/CMakeFiles/deployTestQtBigint"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests
+  cqtdeployer clear -bin /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests/QtBigintTest -qmake /opt/homebrew/bin/qmake -targetDir /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/Testing/QtBigint -libDir /Users/gayuhkautaman/Documents/code/cpp/KIJProject -recursiveDepth 5
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests
+  cqtdeployer clear -bin /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests/QtBigintTest -qmake /opt/homebrew/bin/qmake -targetDir /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/Testing/QtBigint -libDir /Users/gayuhkautaman/Documents/code/cpp/KIJProject -recursiveDepth 5
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests
+  cqtdeployer clear -bin /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests/QtBigintTest -qmake /opt/homebrew/bin/qmake -targetDir /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/Testing/QtBigint -libDir /Users/gayuhkautaman/Documents/code/cpp/KIJProject -recursiveDepth 5
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests
+  cqtdeployer clear -bin /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests/QtBigintTest -qmake /opt/homebrew/bin/qmake -targetDir /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/Testing/QtBigint -libDir /Users/gayuhkautaman/Documents/code/cpp/KIJProject -recursiveDepth 5
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		7B79AD0706F4FA69A199E6BA /* Generate tests/CMakeFiles/testQtBigint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate tests/CMakeFiles/testQtBigint";
+			outputPaths = (
+"/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests/CMakeFiles/testQtBigint"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/Testing/QtBigint
+  /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/Testing/QtBigint/QtBigintTest.sh
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/Testing/QtBigint
+  /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/Testing/QtBigint/QtBigintTest.sh
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/Testing/QtBigint
+  /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/Testing/QtBigint/QtBigintTest.sh
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/Testing/QtBigint
+  /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/Testing/QtBigint/QtBigintTest.sh
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		8C240BD76186407F2A9B4EFD /* Generate src/CMakeFiles/QtBigint_autogen */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate src/CMakeFiles/QtBigint_autogen";
+			outputPaths = (
+"/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/CMakeFiles/QtBigint_autogen","/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/QtBigint_autogen/mocs_compilation.cpp"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src
+  /Users/gayuhkautaman/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/CMakeFiles/QtBigint_autogen.dir/AutogenInfo.json Debug
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src
+  /Users/gayuhkautaman/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/CMakeFiles/QtBigint_autogen.dir/AutogenInfo.json Release
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src
+  /Users/gayuhkautaman/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/CMakeFiles/QtBigint_autogen.dir/AutogenInfo.json MinSizeRel
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src
+  /Users/gayuhkautaman/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/CMakeFiles/QtBigint_autogen.dir/AutogenInfo.json RelWithDebInfo
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A424A7866BCBFDA702A5C8B5 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp
+  make -f /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp
+  make -f /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp
+  make -f /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp
+  make -f /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		C1F973B69B43E1EA9F48BD11 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C6BA5851C61CF559AC1C94BF /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		DB314C16F1854179C0737AC5 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		ECFE0C8D01E600A440AFE9F6 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		FD58F39912441AC244B7F9CD = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43E94C797B0D4186ADD20972 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF3E8EE547AF4A70844A52E7 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/tests/tst_arithmetictests.cpp */,
+				7C383FE9EA9F434C8C546AA4 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests/QtBigintTest_autogen/mocs_compilation.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBE04572F6CA43729933BE86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF6BACB812F946C3BEC69E1D /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/src/bigint.cpp */,
+				4E64B76352C546F6ADC33588 /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/src/mini-gmp.c */,
+				D6F307E3A666495D843A227D /* /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/QtBigint_autogen/mocs_compilation.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08FED6FF1A17499C98D3CE33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 257779348B2644E79DDC54EE /* QtBigint_autogen */;
+			targetProxy = 390794D3BE90411B9101684F /* PBXContainerItemProxy */;
+		};
+		0A7B06BCAFEC4B07B6F785C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48626AFAC31644CF9A09E7F5 /* QtBigint */;
+			targetProxy = 3636C899340D484F9D783E8A /* PBXContainerItemProxy */;
+		};
+		0E41DB534D5C492CA35D09F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F33437E5350B4BF186C25AF7 /* ZERO_CHECK */;
+			targetProxy = 11E3B9C7F89446BF9FF0105C /* PBXContainerItemProxy */;
+		};
+		118BF4DC508B49748FD27890 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F33437E5350B4BF186C25AF7 /* ZERO_CHECK */;
+			targetProxy = EB7340E45CF94BCFBBA7AA48 /* PBXContainerItemProxy */;
+		};
+		19023BD0FFA144928C2FB62A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F33437E5350B4BF186C25AF7 /* ZERO_CHECK */;
+			targetProxy = EAC2D926CBCA4553A85667FD /* PBXContainerItemProxy */;
+		};
+		27628C160DD64A808D27221F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F33437E5350B4BF186C25AF7 /* ZERO_CHECK */;
+			targetProxy = FB8CD33AD06F4CF7975B02A4 /* PBXContainerItemProxy */;
+		};
+		2A885A95383C4D7CB2263184 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F33437E5350B4BF186C25AF7 /* ZERO_CHECK */;
+			targetProxy = C765BD2AFAB4416BB41EE756 /* PBXContainerItemProxy */;
+		};
+		3EFAB56089D34456962AA884 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48626AFAC31644CF9A09E7F5 /* QtBigint */;
+			targetProxy = 161BB0FB08524848BD6E2598 /* PBXContainerItemProxy */;
+		};
+		8713D712AD1945E9AD650F6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F33437E5350B4BF186C25AF7 /* ZERO_CHECK */;
+			targetProxy = 14638046C9224317A7AB0D1C /* PBXContainerItemProxy */;
+		};
+		A86920BCC228480AA8F22593 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF73E1249FD3487BB86BD6F8 /* testQtBigint */;
+			targetProxy = 26F275E2B711408790C202F2 /* PBXContainerItemProxy */;
+		};
+		ADCE21A5BEAC4E8F9B53ED88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F33437E5350B4BF186C25AF7 /* ZERO_CHECK */;
+			targetProxy = C3B9E7A572DF4A75A07C2E12 /* PBXContainerItemProxy */;
+		};
+		AF5B866B4D2D478AA5F0BE01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F33437E5350B4BF186C25AF7 /* ZERO_CHECK */;
+			targetProxy = A7375430633346F9B51FDE07 /* PBXContainerItemProxy */;
+		};
+		C0BD3EB1B6D24697AAC2C235 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAA4F393A4B54C80888FB109 /* QtBigintTest */;
+			targetProxy = 291F4294A92F45599FA0E7D3 /* PBXContainerItemProxy */;
+		};
+		C4467D4B8D364E4C9F909717 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 443D6256CACE40BB8315F3EB /* QtBigintTest_autogen */;
+			targetProxy = 378920B877DB49B2A078E4BA /* PBXContainerItemProxy */;
+		};
+		C5CCDC72CB3C447C89106E2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F33437E5350B4BF186C25AF7 /* ZERO_CHECK */;
+			targetProxy = 1491A0C4289C4EF3883EF662 /* PBXContainerItemProxy */;
+		};
+		CF2538AC7317482F905D5AA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87085C16DD834B04B8DC925A /* deployTestQtBigint */;
+			targetProxy = DF556F5C620E4F35A5C0303A /* PBXContainerItemProxy */;
+		};
+		DE9D4612215049B6983036C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48626AFAC31644CF9A09E7F5 /* QtBigint */;
+			targetProxy = 531A23CC1D994E8EBEF07491 /* PBXContainerItemProxy */;
+		};
+		E69394612FB84F0D92EF4F06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F33437E5350B4BF186C25AF7 /* ZERO_CHECK */;
+			targetProxy = C8C09BE6DF474290BB9CE7DA /* PBXContainerItemProxy */;
+		};
+		F842500E84254D738544AF82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F33437E5350B4BF186C25AF7 /* ZERO_CHECK */;
+			targetProxy = 4B7BF5DACD704FD7B89894D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00211E450E7044668FE41EF7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = release;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		03B3B871CE6C4D8F86727175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = deploy;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		0ABA594201F9469291F6E619 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = deployTestQtBigint;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		1A2B836D5B284AEAB5D83546 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 6.1.2;
+				DYLIB_CURRENT_VERSION = 6.1.2;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QtBigint_EXPORTS,RELEASE_BUILD,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src","/Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/src","/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/QtBigint_autogen/include_RelWithDebInfo","$(inherited)");
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-Wall -fPIC -std=c++11 -lcrypto        -DNDEBUG -fPIC '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = QtBigint.6.1.2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		1E08474313E94657981EF9E2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 6.1.2;
+				DYLIB_CURRENT_VERSION = 6.1.2;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QtBigint_EXPORTS,RELEASE_BUILD,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src","/Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/src","/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/QtBigint_autogen/include_MinSizeRel","$(inherited)");
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-Wall -fPIC -std=c++11 -lcrypto     -DNDEBUG -fPIC '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = QtBigint.6.1.2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		22D4C6C1A33142029EFB77A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		24D5CAE42CC549F0AA003A9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk;
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/build";
+			};
+			name = Release;
+		};
+		25683BC8CDC74816B642625A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		2E78A76E5DAA4B8688AB67F4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = deploy;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		42A1C653C6444E53AED1CB56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = doc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		444FC71A95764F4A802CEFB4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		473E435D320A441FBBADBD18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = QtBigint_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		4B7E5B48C6F24B75A550569D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		4DA06EE414204E3A8A046D7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = doc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		4DBD778E6CEA4FB89BB48151 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = QtBigintTest_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		51792F73DC844834A5D05682 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		576502799F2E4B8DA0E40946 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/opt/homebrew/lib,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",RELEASE_BUILD,QT_CORE_LIB,QT_NO_DEBUG,QT_TESTLIB_LIB,"'QT_TESTCASE_BUILDDIR=\"/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests\"'","'QT_TESTCASE_SOURCEDIR=\"/Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/tests\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests","/Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/tests","/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests/QtBigintTest_autogen/include_RelWithDebInfo","/Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/src","$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("/opt/homebrew/lib /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/RelWithDebInfo","$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-Wall -fPIC -std=c++11 -lcrypto        -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-F /opt/homebrew/lib","-framework QtTest","/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/RelWithDebInfo/libQtBigint.6.1.2.dylib","-framework QtCore","-framework DiskArbitration","-framework Security","-framework AppKit","-framework ApplicationServices","-framework Foundation","-framework IOKit","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = QtBigintTest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests";
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/lib/QtCore.framework/Headers,"/opt/homebrew/share/qt/mkspecs/macx-clang",/opt/homebrew/include,/opt/homebrew/lib/QtTest.framework/Headers,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		581FACF129B7432192B732D4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = release;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5E9C6224FFA94645A7A77D2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = deployTestQtBigint;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		601EA7284B1F4D0390C74831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = testQtBigint;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		70155876B1F4441198AF24B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = QtBigintTest_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		7E5C81A0C08343C7BDF4809D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7F087ED120664040A8C089DF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = testQtBigint;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		817C8103C80C4C86A41B0E6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		870B461AB76D435BA8E2B45A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = testQtBigint;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		8925F93F184A43E986A66CC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 6.1.2;
+				DYLIB_CURRENT_VERSION = 6.1.2;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QtBigint_EXPORTS,RELEASE_BUILD,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src","/Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/src","/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/QtBigint_autogen/include_Debug","$(inherited)");
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-Wall -fPIC -std=c++11 -lcrypto    -fPIC '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = QtBigint.6.1.2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		95AB21759F004316BD5275D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = QtBigint_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		9B5E7C92566C44908C78FD49 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9BBCF4429E0849489C8ED58B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk;
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/build";
+			};
+			name = Debug;
+		};
+		A099731860084C0B9BD3D91F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = release;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A2CBA1627F584CA38EFB8581 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A5243BA95BFA463A97D50EDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/opt/homebrew/lib,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",RELEASE_BUILD,QT_CORE_LIB,QT_TESTLIB_LIB,"'QT_TESTCASE_BUILDDIR=\"/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests\"'","'QT_TESTCASE_SOURCEDIR=\"/Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/tests\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests","/Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/tests","/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests/QtBigintTest_autogen/include_Debug","/Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/src","$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("/opt/homebrew/lib /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/Debug","$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-Wall -fPIC -std=c++11 -lcrypto    '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-F /opt/homebrew/lib","-framework QtTest","/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/Debug/libQtBigint.6.1.2.dylib","-framework QtCore","-framework DiskArbitration","-framework Security","-framework AppKit","-framework ApplicationServices","-framework Foundation","-framework IOKit","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = QtBigintTest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests";
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/lib/QtCore.framework/Headers,"/opt/homebrew/share/qt/mkspecs/macx-clang",/opt/homebrew/include,/opt/homebrew/lib/QtTest.framework/Headers,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		AB8BFAD80682479D823038C0 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = QtBigint_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		AC3F14D657594158BEE1ADFF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk;
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/build";
+			};
+			name = MinSizeRel;
+		};
+		ADEE36E35DCA4C5CB5B3F83A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = QtBigint_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		AEBCB6A20A244A2BB956C0C6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = testQtBigint;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B598C89C8A594473B1727DD1 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = deploy;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B5DEBCC22AAF44B1A12B5CED /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/opt/homebrew/lib,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",RELEASE_BUILD,QT_CORE_LIB,QT_NO_DEBUG,QT_TESTLIB_LIB,"'QT_TESTCASE_BUILDDIR=\"/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests\"'","'QT_TESTCASE_SOURCEDIR=\"/Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/tests\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests","/Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/tests","/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests/QtBigintTest_autogen/include_MinSizeRel","/Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/src","$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("/opt/homebrew/lib /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/MinSizeRel","$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-Wall -fPIC -std=c++11 -lcrypto     -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-F /opt/homebrew/lib","-framework QtTest","/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/MinSizeRel/libQtBigint.6.1.2.dylib","-framework QtCore","-framework DiskArbitration","-framework Security","-framework AppKit","-framework ApplicationServices","-framework Foundation","-framework IOKit","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = QtBigintTest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests";
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/lib/QtCore.framework/Headers,"/opt/homebrew/share/qt/mkspecs/macx-clang",/opt/homebrew/include,/opt/homebrew/lib/QtTest.framework/Headers,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B99860B0B5274498949363C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		BC8E36E89BEA491F99876177 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk;
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/build";
+			};
+			name = RelWithDebInfo;
+		};
+		C0A3E2FA9CEA44AA973F699D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = doc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C795D68428FB49E5AF43B9AC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = doc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C9D53F716B614640B2AC82DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/opt/homebrew/lib,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",RELEASE_BUILD,QT_CORE_LIB,QT_NO_DEBUG,QT_TESTLIB_LIB,"'QT_TESTCASE_BUILDDIR=\"/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests\"'","'QT_TESTCASE_SOURCEDIR=\"/Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/tests\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests","/Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/tests","/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests/QtBigintTest_autogen/include_Release","/Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/src","$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("/opt/homebrew/lib /Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/Release","$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-Wall -fPIC -std=c++11 -lcrypto     -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-F /opt/homebrew/lib","-framework QtTest","/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/Release/libQtBigint.6.1.2.dylib","-framework QtCore","-framework DiskArbitration","-framework Security","-framework AppKit","-framework ApplicationServices","-framework Foundation","-framework IOKit","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = QtBigintTest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests";
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/lib/QtCore.framework/Headers,"/opt/homebrew/share/qt/mkspecs/macx-clang",/opt/homebrew/include,/opt/homebrew/lib/QtTest.framework/Headers,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D4C3B6B6F23D4C3F8BBDD496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = release;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D53F0BA740804EE4BDD231F8 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = deployTestQtBigint;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D58952B8421C49F9B5658DAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = QtBigintTest_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		DF1027B76ED54880855485A8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = QtBigintTest_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E158DEBD30D74D1181ED4410 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		E1F6B12B650946569F8661A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 6.1.2;
+				DYLIB_CURRENT_VERSION = 6.1.2;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QtBigint_EXPORTS,RELEASE_BUILD,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src","/Users/gayuhkautaman/Documents/code/cpp/KIJProject/Qt-Secret/src/mini-gmp/src","/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src/QtBigint_autogen/include_Release","$(inherited)");
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-Wall -fPIC -std=c++11 -lcrypto     -DNDEBUG -fPIC '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = QtBigint.6.1.2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		E53C19D10CC946ABBE6219FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E5A27BB56185416888CC055E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = deployTestQtBigint;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		EB829B0E09D04C0E94EC523C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = deploy;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3587B43C7972418F82645115 /* Build configuration list for PBXAggregateTarget "QtBigint_autogen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				473E435D320A441FBBADBD18 /* Debug */,
+				95AB21759F004316BD5275D5 /* Release */,
+				ADEE36E35DCA4C5CB5B3F83A /* MinSizeRel */,
+				AB8BFAD80682479D823038C0 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3A453B9845234B0F96782694 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				817C8103C80C4C86A41B0E6C /* Debug */,
+				E158DEBD30D74D1181ED4410 /* Release */,
+				7E5C81A0C08343C7BDF4809D /* MinSizeRel */,
+				A2CBA1627F584CA38EFB8581 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		43C1EC7D83EB4A28AB985C28 /* Build configuration list for PBXAggregateTarget "QtBigintTest_autogen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D58952B8421C49F9B5658DAD /* Debug */,
+				70155876B1F4441198AF24B8 /* Release */,
+				4DBD778E6CEA4FB89BB48151 /* MinSizeRel */,
+				DF1027B76ED54880855485A8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6536F2246FC247858FEDA8B1 /* Build configuration list for PBXNativeTarget "QtBigint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8925F93F184A43E986A66CC8 /* Debug */,
+				E1F6B12B650946569F8661A8 /* Release */,
+				1E08474313E94657981EF9E2 /* MinSizeRel */,
+				1A2B836D5B284AEAB5D83546 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7D825507C9534273B8C91345 /* Build configuration list for PBXNativeTarget "QtBigintTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5243BA95BFA463A97D50EDE /* Debug */,
+				C9D53F716B614640B2AC82DD /* Release */,
+				B5DEBCC22AAF44B1A12B5CED /* MinSizeRel */,
+				576502799F2E4B8DA0E40946 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8A25A7332CF24B38B3C119CF /* Build configuration list for PBXProject "QtBigint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BBCF4429E0849489C8ED58B /* Debug */,
+				24D5CAE42CC549F0AA003A9E /* Release */,
+				AC3F14D657594158BEE1ADFF /* MinSizeRel */,
+				BC8E36E89BEA491F99876177 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		990A77DD7A0E4F83B703055D /* Build configuration list for PBXAggregateTarget "deployTestQtBigint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5A27BB56185416888CC055E /* Debug */,
+				5E9C6224FFA94645A7A77D2F /* Release */,
+				D53F0BA740804EE4BDD231F8 /* MinSizeRel */,
+				0ABA594201F9469291F6E619 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9A41611C52C44F7A8812BC73 /* Build configuration list for PBXAggregateTarget "testQtBigint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				870B461AB76D435BA8E2B45A /* Debug */,
+				601EA7284B1F4D0390C74831 /* Release */,
+				AEBCB6A20A244A2BB956C0C6 /* MinSizeRel */,
+				7F087ED120664040A8C089DF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C4E32CDBD1E7431E9015112A /* Build configuration list for PBXAggregateTarget "test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22D4C6C1A33142029EFB77A0 /* Debug */,
+				4B7E5B48C6F24B75A550569D /* Release */,
+				25683BC8CDC74816B642625A /* MinSizeRel */,
+				444FC71A95764F4A802CEFB4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C7ED19FB35754B9B97C66DE7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E53C19D10CC946ABBE6219FE /* Debug */,
+				B99860B0B5274498949363C2 /* Release */,
+				51792F73DC844834A5D05682 /* MinSizeRel */,
+				9B5E7C92566C44908C78FD49 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C9189EF4041B42DF918602BC /* Build configuration list for PBXAggregateTarget "doc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42A1C653C6444E53AED1CB56 /* Debug */,
+				4DA06EE414204E3A8A046D7E /* Release */,
+				C0A3E2FA9CEA44AA973F699D /* MinSizeRel */,
+				C795D68428FB49E5AF43B9AC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E67CB2FA87714B6699E67796 /* Build configuration list for PBXAggregateTarget "deploy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03B3B871CE6C4D8F86727175 /* Debug */,
+				EB829B0E09D04C0E94EC523C /* Release */,
+				B598C89C8A594473B1727DD1 /* MinSizeRel */,
+				2E78A76E5DAA4B8688AB67F4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FE2FE7329F284E0CA167C8AC /* Build configuration list for PBXAggregateTarget "release" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A099731860084C0B9BD3D91F /* Debug */,
+				D4C3B6B6F23D4C3F8BBDD496 /* Release */,
+				581FACF129B7432192B732D4 /* MinSizeRel */,
+				00211E450E7044668FE41EF7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99BABA932E4E4609BDED7858 /* Project object */;
+}

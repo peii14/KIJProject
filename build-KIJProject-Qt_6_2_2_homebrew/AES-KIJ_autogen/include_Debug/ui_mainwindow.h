@@ -12,6 +12,7 @@
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QLabel>
+#include <QtWidgets/QLineEdit>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QPushButton>
@@ -38,6 +39,9 @@ public:
     QLabel *leftLabel_5;
     QLabel *performanceNON;
     QLabel *leftLabel_7;
+    QLabel *CertStatus;
+    QLineEdit *passwordInput;
+    QLabel *leftLabel_6;
     QMenuBar *menuBar;
     QToolBar *mainToolBar;
     QStatusBar *statusBar;
@@ -75,19 +79,28 @@ public:
         leftLabel_2->setGeometry(QRect(10, 340, 131, 16));
         leftLabel_3 = new QLabel(centralWidget);
         leftLabel_3->setObjectName(QString::fromUtf8("leftLabel_3"));
-        leftLabel_3->setGeometry(QRect(290, 340, 181, 16));
+        leftLabel_3->setGeometry(QRect(470, 340, 181, 16));
         leftLabel_4 = new QLabel(centralWidget);
         leftLabel_4->setObjectName(QString::fromUtf8("leftLabel_4"));
-        leftLabel_4->setGeometry(QRect(290, 370, 131, 16));
+        leftLabel_4->setGeometry(QRect(470, 370, 131, 16));
         leftLabel_5 = new QLabel(centralWidget);
         leftLabel_5->setObjectName(QString::fromUtf8("leftLabel_5"));
-        leftLabel_5->setGeometry(QRect(440, 370, 131, 16));
+        leftLabel_5->setGeometry(QRect(620, 370, 131, 16));
         performanceNON = new QLabel(centralWidget);
         performanceNON->setObjectName(QString::fromUtf8("performanceNON"));
-        performanceNON->setGeometry(QRect(290, 400, 131, 16));
+        performanceNON->setGeometry(QRect(470, 400, 131, 16));
         leftLabel_7 = new QLabel(centralWidget);
         leftLabel_7->setObjectName(QString::fromUtf8("leftLabel_7"));
-        leftLabel_7->setGeometry(QRect(440, 400, 131, 16));
+        leftLabel_7->setGeometry(QRect(620, 400, 131, 16));
+        CertStatus = new QLabel(centralWidget);
+        CertStatus->setObjectName(QString::fromUtf8("CertStatus"));
+        CertStatus->setGeometry(QRect(20, 400, 181, 16));
+        passwordInput = new QLineEdit(centralWidget);
+        passwordInput->setObjectName(QString::fromUtf8("passwordInput"));
+        passwordInput->setGeometry(QRect(240, 370, 113, 24));
+        leftLabel_6 = new QLabel(centralWidget);
+        leftLabel_6->setObjectName(QString::fromUtf8("leftLabel_6"));
+        leftLabel_6->setGeometry(QRect(240, 340, 131, 16));
         MainWindow->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(MainWindow);
         menuBar->setObjectName(QString::fromUtf8("menuBar"));
@@ -121,6 +134,8 @@ public:
         leftLabel_5->setText(QCoreApplication::translate("MainWindow", "WithOpenSSL", nullptr));
         performanceNON->setText(QCoreApplication::translate("MainWindow", "NULL", nullptr));
         leftLabel_7->setText(QCoreApplication::translate("MainWindow", "NULL", nullptr));
+        CertStatus->setText(QCoreApplication::translate("MainWindow", "Certificate Status", nullptr));
+        leftLabel_6->setText(QCoreApplication::translate("MainWindow", "Set password", nullptr));
     } // retranslateUi
 
 };

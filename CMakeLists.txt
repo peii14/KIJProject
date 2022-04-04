@@ -10,6 +10,7 @@ set(CMAKE_AUTORCC ON)
 set(CMAKE_CXX_FLAGS "-Wall -fPIC -std=c++11 -lcrypto")
 #set(CMAKE_OSX_ARCHITECTURES "arm64")
 set(CMAKE_OSX_DEPLOYMENT_TARGET "10.15")
+set(BUILD_SHARED_LIBS ON)
 find_package(QT NAMES Qt6 Qt5 COMPONENTS Widgets LinguistTools REQUIRED)
 find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Widgets LinguistTools REQUIRED)
 find_package(Qt${QT_VERSION_MAJOR}Core CONFIG REQUIRED)
@@ -31,19 +32,19 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 #include_directories(/usr/local/include)
 find_package(QT NAMES Qt6 Qt5 COMPONENTS Widgets REQUIRED)
 find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Widgets REQUIRED)
+add_subdirectory(Qt-Secret)
 
 set(PROJECT_SOURCES
         main.cpp
         mainwindow.cpp
         mainwindow.h
         mainwindow.ui
-        libaes.cpp
-        libaes.h
         bitmap.cpp
         bitmap.h
         aes.cpp
         aes.h
-
+        rsa.cpp
+        rsa.h
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
@@ -75,9 +76,7 @@ target_link_libraries(AES-KIJ PRIVATE Qt${QT_VERSION_MAJOR}::Widgets
     Qt${QT_VERSION_MAJOR}::Gui
     Qt${QT_VERSION_MAJOR}::Qml
     Qt${QT_VERSION_MAJOR}::Quick
-#    -lcrypto
-
-#    ${OpenCV_LIBS}
+    PUBLIC Qt-Secret
     )
 
 set_target_properties(AES-KIJ PROPERTIES

@@ -1,0 +1,1832 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						17
+					]
+				},
+				{
+					"build" : "Qt-Secret",
+					"childIndexes" : 
+					[
+						2,
+						5,
+						6,
+						7
+					],
+					"jsonFile" : "directory-Qt-Secret-Debug-9fc5fd5fb8d35346e6a2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Qt-Secret",
+					"targetIndexes" : 
+					[
+						3,
+						18
+					]
+				},
+				{
+					"build" : "Qt-Secret/src/mini-gmp",
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"jsonFile" : "directory-Qt-Secret.src.mini-gmp-Debug-a6276d8f9fa6b7503a97.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "Qt-Secret/src/mini-gmp",
+					"targetIndexes" : 
+					[
+						4,
+						19,
+						20,
+						24,
+						25
+					]
+				},
+				{
+					"build" : "Qt-Secret/src/mini-gmp/src",
+					"jsonFile" : "directory-Qt-Secret.src.mini-gmp.src-Debug-08d842c2c316d1b3c1f0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "Qt-Secret/src/mini-gmp/src",
+					"targetIndexes" : 
+					[
+						13,
+						16
+					]
+				},
+				{
+					"build" : "Qt-Secret/src/mini-gmp/tests",
+					"jsonFile" : "directory-Qt-Secret.src.mini-gmp.tests-Debug-af1e12122b249e822a08.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "Qt-Secret/src/mini-gmp/tests",
+					"targetIndexes" : 
+					[
+						14,
+						15,
+						23,
+						26,
+						29
+					]
+				},
+				{
+					"build" : "Qt-Secret/src",
+					"jsonFile" : "directory-Qt-Secret.src-Debug-497011bec304288bba10.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "Qt-Secret/src",
+					"targetIndexes" : 
+					[
+						5,
+						12
+					]
+				},
+				{
+					"build" : "Qt-Secret/tests",
+					"jsonFile" : "directory-Qt-Secret.tests-Debug-8662607a68ca0cf10a8c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "Qt-Secret/tests",
+					"targetIndexes" : 
+					[
+						8,
+						9,
+						10,
+						11,
+						21,
+						22,
+						27,
+						28
+					]
+				},
+				{
+					"build" : "Qt-Secret/Qt-Secret-GUI",
+					"jsonFile" : "directory-Qt-Secret.Qt-Secret-GUI-Debug-466d99b96f6af0f60c15.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "Qt-Secret/Qt-Secret-GUI",
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "AES-KIJ",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						17
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						5,
+						6,
+						7
+					],
+					"name" : "Qt-Secret",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						18,
+						21,
+						22,
+						27,
+						28
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4
+					],
+					"name" : "QtBigint",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						4,
+						13,
+						14,
+						15,
+						16,
+						19,
+						20,
+						23,
+						24,
+						25,
+						26,
+						29
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "AES-KIJ::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-AES-KIJ-Debug-b353f2a818aeab7a9d1e.json",
+					"name" : "AES-KIJ",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "AES-KIJ_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-AES-KIJ_autogen-Debug-912dd99a770178ef8d38.json",
+					"name" : "AES-KIJ_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-08e7d23455dc1239be55.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@4abf06259beec9d0a4c2",
+					"jsonFile" : "target-ALL_BUILD-Debug-a94f900d3f5d9e1d81d1.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@45bb71c845b8630a2712",
+					"jsonFile" : "target-ALL_BUILD-Debug-ea0dd0a49bfcfe7425c7.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "Qt-Secret::@d27b8ecd97718717dc37",
+					"jsonFile" : "target-Qt-Secret-Debug-622a9eb74fa7b88fd9b9.json",
+					"name" : "Qt-Secret",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "Qt-Secret-GUI::@ddffae524c50d01abe50",
+					"jsonFile" : "target-Qt-Secret-GUI-Debug-c58adf20738fbe29e679.json",
+					"name" : "Qt-Secret-GUI",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "Qt-Secret-GUI_autogen::@ddffae524c50d01abe50",
+					"jsonFile" : "target-Qt-Secret-GUI_autogen-Debug-95dbf9be001140d3d1a3.json",
+					"name" : "Qt-Secret-GUI_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Qt-SecretTest_AES::@4051c4e321833871d2bb",
+					"jsonFile" : "target-Qt-SecretTest_AES-Debug-00c413816b88520b1461.json",
+					"name" : "Qt-SecretTest_AES",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Qt-SecretTest_AES_autogen::@4051c4e321833871d2bb",
+					"jsonFile" : "target-Qt-SecretTest_AES_autogen-Debug-f4ffe33ad87946b5efaa.json",
+					"name" : "Qt-SecretTest_AES_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Qt-SecretTest_RSA::@4051c4e321833871d2bb",
+					"jsonFile" : "target-Qt-SecretTest_RSA-Debug-a11f3e391d49ceb95892.json",
+					"name" : "Qt-SecretTest_RSA",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Qt-SecretTest_RSA_autogen::@4051c4e321833871d2bb",
+					"jsonFile" : "target-Qt-SecretTest_RSA_autogen-Debug-3e29f7ab51511eea163b.json",
+					"name" : "Qt-SecretTest_RSA_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "Qt-Secret_autogen::@d27b8ecd97718717dc37",
+					"jsonFile" : "target-Qt-Secret_autogen-Debug-ef5337d681ae01abcb3a.json",
+					"name" : "Qt-Secret_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "QtBigint::@97fc14b235efbb5a1def",
+					"jsonFile" : "target-QtBigint-Debug-1789c6658f20a4e216f3.json",
+					"name" : "QtBigint",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "QtBigintTest::@41cd30918b3defb1c60f",
+					"jsonFile" : "target-QtBigintTest-Debug-1a85219335817c77bf83.json",
+					"name" : "QtBigintTest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "QtBigintTest_autogen::@41cd30918b3defb1c60f",
+					"jsonFile" : "target-QtBigintTest_autogen-Debug-6d2e9af85f9ce2183962.json",
+					"name" : "QtBigintTest_autogen",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "QtBigint_autogen::@97fc14b235efbb5a1def",
+					"jsonFile" : "target-QtBigint_autogen-Debug-21a4bb6e560dda345614.json",
+					"name" : "QtBigint_autogen",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-9503e477d829dd70547f.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ZERO_CHECK::@4abf06259beec9d0a4c2",
+					"jsonFile" : "target-ZERO_CHECK-Debug-9879e737d99f7c4e9020.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ZERO_CHECK::@45bb71c845b8630a2712",
+					"jsonFile" : "target-ZERO_CHECK-Debug-1a957880199c459531da.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "deploy::@45bb71c845b8630a2712",
+					"jsonFile" : "target-deploy-Debug-eafa081a2a47ff600d5c.json",
+					"name" : "deploy",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "deployTestQt-SecretAES::@4051c4e321833871d2bb",
+					"jsonFile" : "target-deployTestQt-SecretAES-Debug-20be5ea8d901030adddd.json",
+					"name" : "deployTestQt-SecretAES",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "deployTestQt-SecretRSA::@4051c4e321833871d2bb",
+					"jsonFile" : "target-deployTestQt-SecretRSA-Debug-185ac10240672fd4eaeb.json",
+					"name" : "deployTestQt-SecretRSA",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "deployTestQtBigint::@41cd30918b3defb1c60f",
+					"jsonFile" : "target-deployTestQtBigint-Debug-346c4a8ef2e651a6ce36.json",
+					"name" : "deployTestQtBigint",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "doc::@45bb71c845b8630a2712",
+					"jsonFile" : "target-doc-Debug-36ca25a05eede34691ff.json",
+					"name" : "doc",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "release::@45bb71c845b8630a2712",
+					"jsonFile" : "target-release-Debug-decb32ed68bc53bd8f6f.json",
+					"name" : "release",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "test::@41cd30918b3defb1c60f",
+					"jsonFile" : "target-test-Debug-0905601ddf027d0ced54.json",
+					"name" : "test",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "testQt-SecretAES::@4051c4e321833871d2bb",
+					"jsonFile" : "target-testQt-SecretAES-Debug-07a4b2e1af2b4a318aa5.json",
+					"name" : "testQt-SecretAES",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "testQt-SecretRSA::@4051c4e321833871d2bb",
+					"jsonFile" : "target-testQt-SecretRSA-Debug-4c600088e91c5f4eacc7.json",
+					"name" : "testQt-SecretRSA",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "testQtBigint::@41cd30918b3defb1c60f",
+					"jsonFile" : "target-testQtBigint-Debug-b03fac838670bb4629aa.json",
+					"name" : "testQtBigint",
+					"projectIndex" : 2
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						17
+					]
+				},
+				{
+					"build" : "Qt-Secret",
+					"childIndexes" : 
+					[
+						2,
+						5,
+						6,
+						7
+					],
+					"jsonFile" : "directory-Qt-Secret-Release-9fc5fd5fb8d35346e6a2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Qt-Secret",
+					"targetIndexes" : 
+					[
+						3,
+						18
+					]
+				},
+				{
+					"build" : "Qt-Secret/src/mini-gmp",
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"jsonFile" : "directory-Qt-Secret.src.mini-gmp-Release-a6276d8f9fa6b7503a97.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "Qt-Secret/src/mini-gmp",
+					"targetIndexes" : 
+					[
+						4,
+						19,
+						20,
+						24,
+						25
+					]
+				},
+				{
+					"build" : "Qt-Secret/src/mini-gmp/src",
+					"jsonFile" : "directory-Qt-Secret.src.mini-gmp.src-Release-08d842c2c316d1b3c1f0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "Qt-Secret/src/mini-gmp/src",
+					"targetIndexes" : 
+					[
+						13,
+						16
+					]
+				},
+				{
+					"build" : "Qt-Secret/src/mini-gmp/tests",
+					"jsonFile" : "directory-Qt-Secret.src.mini-gmp.tests-Release-af1e12122b249e822a08.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "Qt-Secret/src/mini-gmp/tests",
+					"targetIndexes" : 
+					[
+						14,
+						15,
+						23,
+						26,
+						29
+					]
+				},
+				{
+					"build" : "Qt-Secret/src",
+					"jsonFile" : "directory-Qt-Secret.src-Release-497011bec304288bba10.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "Qt-Secret/src",
+					"targetIndexes" : 
+					[
+						5,
+						12
+					]
+				},
+				{
+					"build" : "Qt-Secret/tests",
+					"jsonFile" : "directory-Qt-Secret.tests-Release-8662607a68ca0cf10a8c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "Qt-Secret/tests",
+					"targetIndexes" : 
+					[
+						8,
+						9,
+						10,
+						11,
+						21,
+						22,
+						27,
+						28
+					]
+				},
+				{
+					"build" : "Qt-Secret/Qt-Secret-GUI",
+					"jsonFile" : "directory-Qt-Secret.Qt-Secret-GUI-Release-466d99b96f6af0f60c15.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "Qt-Secret/Qt-Secret-GUI",
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "AES-KIJ",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						17
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						5,
+						6,
+						7
+					],
+					"name" : "Qt-Secret",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						18,
+						21,
+						22,
+						27,
+						28
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4
+					],
+					"name" : "QtBigint",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						4,
+						13,
+						14,
+						15,
+						16,
+						19,
+						20,
+						23,
+						24,
+						25,
+						26,
+						29
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "AES-KIJ::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-AES-KIJ-Release-4dec3aa1f7bd90bf4c46.json",
+					"name" : "AES-KIJ",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "AES-KIJ_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-AES-KIJ_autogen-Release-912dd99a770178ef8d38.json",
+					"name" : "AES-KIJ_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-08e7d23455dc1239be55.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@4abf06259beec9d0a4c2",
+					"jsonFile" : "target-ALL_BUILD-Release-a94f900d3f5d9e1d81d1.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@45bb71c845b8630a2712",
+					"jsonFile" : "target-ALL_BUILD-Release-ea0dd0a49bfcfe7425c7.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "Qt-Secret::@d27b8ecd97718717dc37",
+					"jsonFile" : "target-Qt-Secret-Release-f163ea0a80f333620f38.json",
+					"name" : "Qt-Secret",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "Qt-Secret-GUI::@ddffae524c50d01abe50",
+					"jsonFile" : "target-Qt-Secret-GUI-Release-bf0e45803078116c38c5.json",
+					"name" : "Qt-Secret-GUI",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "Qt-Secret-GUI_autogen::@ddffae524c50d01abe50",
+					"jsonFile" : "target-Qt-Secret-GUI_autogen-Release-95dbf9be001140d3d1a3.json",
+					"name" : "Qt-Secret-GUI_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Qt-SecretTest_AES::@4051c4e321833871d2bb",
+					"jsonFile" : "target-Qt-SecretTest_AES-Release-8fa17fa0f160c0674ca5.json",
+					"name" : "Qt-SecretTest_AES",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Qt-SecretTest_AES_autogen::@4051c4e321833871d2bb",
+					"jsonFile" : "target-Qt-SecretTest_AES_autogen-Release-f4ffe33ad87946b5efaa.json",
+					"name" : "Qt-SecretTest_AES_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Qt-SecretTest_RSA::@4051c4e321833871d2bb",
+					"jsonFile" : "target-Qt-SecretTest_RSA-Release-c6bba8ce3f766c8b645b.json",
+					"name" : "Qt-SecretTest_RSA",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Qt-SecretTest_RSA_autogen::@4051c4e321833871d2bb",
+					"jsonFile" : "target-Qt-SecretTest_RSA_autogen-Release-3e29f7ab51511eea163b.json",
+					"name" : "Qt-SecretTest_RSA_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "Qt-Secret_autogen::@d27b8ecd97718717dc37",
+					"jsonFile" : "target-Qt-Secret_autogen-Release-ef5337d681ae01abcb3a.json",
+					"name" : "Qt-Secret_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "QtBigint::@97fc14b235efbb5a1def",
+					"jsonFile" : "target-QtBigint-Release-909a83b4ed4342f14bc3.json",
+					"name" : "QtBigint",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "QtBigintTest::@41cd30918b3defb1c60f",
+					"jsonFile" : "target-QtBigintTest-Release-f0767dddb15aa15bb9d5.json",
+					"name" : "QtBigintTest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "QtBigintTest_autogen::@41cd30918b3defb1c60f",
+					"jsonFile" : "target-QtBigintTest_autogen-Release-6d2e9af85f9ce2183962.json",
+					"name" : "QtBigintTest_autogen",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "QtBigint_autogen::@97fc14b235efbb5a1def",
+					"jsonFile" : "target-QtBigint_autogen-Release-21a4bb6e560dda345614.json",
+					"name" : "QtBigint_autogen",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-9503e477d829dd70547f.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ZERO_CHECK::@4abf06259beec9d0a4c2",
+					"jsonFile" : "target-ZERO_CHECK-Release-9879e737d99f7c4e9020.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ZERO_CHECK::@45bb71c845b8630a2712",
+					"jsonFile" : "target-ZERO_CHECK-Release-1a957880199c459531da.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "deploy::@45bb71c845b8630a2712",
+					"jsonFile" : "target-deploy-Release-eafa081a2a47ff600d5c.json",
+					"name" : "deploy",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "deployTestQt-SecretAES::@4051c4e321833871d2bb",
+					"jsonFile" : "target-deployTestQt-SecretAES-Release-20be5ea8d901030adddd.json",
+					"name" : "deployTestQt-SecretAES",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "deployTestQt-SecretRSA::@4051c4e321833871d2bb",
+					"jsonFile" : "target-deployTestQt-SecretRSA-Release-185ac10240672fd4eaeb.json",
+					"name" : "deployTestQt-SecretRSA",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "deployTestQtBigint::@41cd30918b3defb1c60f",
+					"jsonFile" : "target-deployTestQtBigint-Release-346c4a8ef2e651a6ce36.json",
+					"name" : "deployTestQtBigint",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "doc::@45bb71c845b8630a2712",
+					"jsonFile" : "target-doc-Release-36ca25a05eede34691ff.json",
+					"name" : "doc",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "release::@45bb71c845b8630a2712",
+					"jsonFile" : "target-release-Release-decb32ed68bc53bd8f6f.json",
+					"name" : "release",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "test::@41cd30918b3defb1c60f",
+					"jsonFile" : "target-test-Release-0905601ddf027d0ced54.json",
+					"name" : "test",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "testQt-SecretAES::@4051c4e321833871d2bb",
+					"jsonFile" : "target-testQt-SecretAES-Release-07a4b2e1af2b4a318aa5.json",
+					"name" : "testQt-SecretAES",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "testQt-SecretRSA::@4051c4e321833871d2bb",
+					"jsonFile" : "target-testQt-SecretRSA-Release-4c600088e91c5f4eacc7.json",
+					"name" : "testQt-SecretRSA",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "testQtBigint::@41cd30918b3defb1c60f",
+					"jsonFile" : "target-testQtBigint-Release-b03fac838670bb4629aa.json",
+					"name" : "testQtBigint",
+					"projectIndex" : 2
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-MinSizeRel-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						17
+					]
+				},
+				{
+					"build" : "Qt-Secret",
+					"childIndexes" : 
+					[
+						2,
+						5,
+						6,
+						7
+					],
+					"jsonFile" : "directory-Qt-Secret-MinSizeRel-9fc5fd5fb8d35346e6a2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Qt-Secret",
+					"targetIndexes" : 
+					[
+						3,
+						18
+					]
+				},
+				{
+					"build" : "Qt-Secret/src/mini-gmp",
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"jsonFile" : "directory-Qt-Secret.src.mini-gmp-MinSizeRel-a6276d8f9fa6b7503a97.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "Qt-Secret/src/mini-gmp",
+					"targetIndexes" : 
+					[
+						4,
+						19,
+						20,
+						24,
+						25
+					]
+				},
+				{
+					"build" : "Qt-Secret/src/mini-gmp/src",
+					"jsonFile" : "directory-Qt-Secret.src.mini-gmp.src-MinSizeRel-08d842c2c316d1b3c1f0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "Qt-Secret/src/mini-gmp/src",
+					"targetIndexes" : 
+					[
+						13,
+						16
+					]
+				},
+				{
+					"build" : "Qt-Secret/src/mini-gmp/tests",
+					"jsonFile" : "directory-Qt-Secret.src.mini-gmp.tests-MinSizeRel-af1e12122b249e822a08.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "Qt-Secret/src/mini-gmp/tests",
+					"targetIndexes" : 
+					[
+						14,
+						15,
+						23,
+						26,
+						29
+					]
+				},
+				{
+					"build" : "Qt-Secret/src",
+					"jsonFile" : "directory-Qt-Secret.src-MinSizeRel-497011bec304288bba10.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "Qt-Secret/src",
+					"targetIndexes" : 
+					[
+						5,
+						12
+					]
+				},
+				{
+					"build" : "Qt-Secret/tests",
+					"jsonFile" : "directory-Qt-Secret.tests-MinSizeRel-8662607a68ca0cf10a8c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "Qt-Secret/tests",
+					"targetIndexes" : 
+					[
+						8,
+						9,
+						10,
+						11,
+						21,
+						22,
+						27,
+						28
+					]
+				},
+				{
+					"build" : "Qt-Secret/Qt-Secret-GUI",
+					"jsonFile" : "directory-Qt-Secret.Qt-Secret-GUI-MinSizeRel-466d99b96f6af0f60c15.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "Qt-Secret/Qt-Secret-GUI",
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "AES-KIJ",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						17
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						5,
+						6,
+						7
+					],
+					"name" : "Qt-Secret",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						18,
+						21,
+						22,
+						27,
+						28
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4
+					],
+					"name" : "QtBigint",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						4,
+						13,
+						14,
+						15,
+						16,
+						19,
+						20,
+						23,
+						24,
+						25,
+						26,
+						29
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "AES-KIJ::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-AES-KIJ-MinSizeRel-f06edabdcab71d7505b7.json",
+					"name" : "AES-KIJ",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "AES-KIJ_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-AES-KIJ_autogen-MinSizeRel-912dd99a770178ef8d38.json",
+					"name" : "AES-KIJ_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-08e7d23455dc1239be55.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@4abf06259beec9d0a4c2",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-a94f900d3f5d9e1d81d1.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@45bb71c845b8630a2712",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-ea0dd0a49bfcfe7425c7.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "Qt-Secret::@d27b8ecd97718717dc37",
+					"jsonFile" : "target-Qt-Secret-MinSizeRel-d0da4f2107621b1ca3d8.json",
+					"name" : "Qt-Secret",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "Qt-Secret-GUI::@ddffae524c50d01abe50",
+					"jsonFile" : "target-Qt-Secret-GUI-MinSizeRel-c2aee6781b2308abb04e.json",
+					"name" : "Qt-Secret-GUI",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "Qt-Secret-GUI_autogen::@ddffae524c50d01abe50",
+					"jsonFile" : "target-Qt-Secret-GUI_autogen-MinSizeRel-95dbf9be001140d3d1a3.json",
+					"name" : "Qt-Secret-GUI_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Qt-SecretTest_AES::@4051c4e321833871d2bb",
+					"jsonFile" : "target-Qt-SecretTest_AES-MinSizeRel-8fc3339e520df3add311.json",
+					"name" : "Qt-SecretTest_AES",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Qt-SecretTest_AES_autogen::@4051c4e321833871d2bb",
+					"jsonFile" : "target-Qt-SecretTest_AES_autogen-MinSizeRel-f4ffe33ad87946b5efaa.json",
+					"name" : "Qt-SecretTest_AES_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Qt-SecretTest_RSA::@4051c4e321833871d2bb",
+					"jsonFile" : "target-Qt-SecretTest_RSA-MinSizeRel-cd0d5a31022de2ea129c.json",
+					"name" : "Qt-SecretTest_RSA",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Qt-SecretTest_RSA_autogen::@4051c4e321833871d2bb",
+					"jsonFile" : "target-Qt-SecretTest_RSA_autogen-MinSizeRel-3e29f7ab51511eea163b.json",
+					"name" : "Qt-SecretTest_RSA_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "Qt-Secret_autogen::@d27b8ecd97718717dc37",
+					"jsonFile" : "target-Qt-Secret_autogen-MinSizeRel-ef5337d681ae01abcb3a.json",
+					"name" : "Qt-Secret_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "QtBigint::@97fc14b235efbb5a1def",
+					"jsonFile" : "target-QtBigint-MinSizeRel-f2ff51559280d0e76f6d.json",
+					"name" : "QtBigint",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "QtBigintTest::@41cd30918b3defb1c60f",
+					"jsonFile" : "target-QtBigintTest-MinSizeRel-e04330fcd9c37a3a7b59.json",
+					"name" : "QtBigintTest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "QtBigintTest_autogen::@41cd30918b3defb1c60f",
+					"jsonFile" : "target-QtBigintTest_autogen-MinSizeRel-6d2e9af85f9ce2183962.json",
+					"name" : "QtBigintTest_autogen",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "QtBigint_autogen::@97fc14b235efbb5a1def",
+					"jsonFile" : "target-QtBigint_autogen-MinSizeRel-21a4bb6e560dda345614.json",
+					"name" : "QtBigint_autogen",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-9503e477d829dd70547f.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ZERO_CHECK::@4abf06259beec9d0a4c2",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-9879e737d99f7c4e9020.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ZERO_CHECK::@45bb71c845b8630a2712",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-1a957880199c459531da.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "deploy::@45bb71c845b8630a2712",
+					"jsonFile" : "target-deploy-MinSizeRel-eafa081a2a47ff600d5c.json",
+					"name" : "deploy",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "deployTestQt-SecretAES::@4051c4e321833871d2bb",
+					"jsonFile" : "target-deployTestQt-SecretAES-MinSizeRel-20be5ea8d901030adddd.json",
+					"name" : "deployTestQt-SecretAES",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "deployTestQt-SecretRSA::@4051c4e321833871d2bb",
+					"jsonFile" : "target-deployTestQt-SecretRSA-MinSizeRel-185ac10240672fd4eaeb.json",
+					"name" : "deployTestQt-SecretRSA",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "deployTestQtBigint::@41cd30918b3defb1c60f",
+					"jsonFile" : "target-deployTestQtBigint-MinSizeRel-346c4a8ef2e651a6ce36.json",
+					"name" : "deployTestQtBigint",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "doc::@45bb71c845b8630a2712",
+					"jsonFile" : "target-doc-MinSizeRel-36ca25a05eede34691ff.json",
+					"name" : "doc",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "release::@45bb71c845b8630a2712",
+					"jsonFile" : "target-release-MinSizeRel-decb32ed68bc53bd8f6f.json",
+					"name" : "release",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "test::@41cd30918b3defb1c60f",
+					"jsonFile" : "target-test-MinSizeRel-0905601ddf027d0ced54.json",
+					"name" : "test",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "testQt-SecretAES::@4051c4e321833871d2bb",
+					"jsonFile" : "target-testQt-SecretAES-MinSizeRel-07a4b2e1af2b4a318aa5.json",
+					"name" : "testQt-SecretAES",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "testQt-SecretRSA::@4051c4e321833871d2bb",
+					"jsonFile" : "target-testQt-SecretRSA-MinSizeRel-4c600088e91c5f4eacc7.json",
+					"name" : "testQt-SecretRSA",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "testQtBigint::@41cd30918b3defb1c60f",
+					"jsonFile" : "target-testQtBigint-MinSizeRel-b03fac838670bb4629aa.json",
+					"name" : "testQtBigint",
+					"projectIndex" : 2
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-RelWithDebInfo-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						17
+					]
+				},
+				{
+					"build" : "Qt-Secret",
+					"childIndexes" : 
+					[
+						2,
+						5,
+						6,
+						7
+					],
+					"jsonFile" : "directory-Qt-Secret-RelWithDebInfo-9fc5fd5fb8d35346e6a2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Qt-Secret",
+					"targetIndexes" : 
+					[
+						3,
+						18
+					]
+				},
+				{
+					"build" : "Qt-Secret/src/mini-gmp",
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"jsonFile" : "directory-Qt-Secret.src.mini-gmp-RelWithDebInfo-a6276d8f9fa6b7503a97.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "Qt-Secret/src/mini-gmp",
+					"targetIndexes" : 
+					[
+						4,
+						19,
+						20,
+						24,
+						25
+					]
+				},
+				{
+					"build" : "Qt-Secret/src/mini-gmp/src",
+					"jsonFile" : "directory-Qt-Secret.src.mini-gmp.src-RelWithDebInfo-08d842c2c316d1b3c1f0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "Qt-Secret/src/mini-gmp/src",
+					"targetIndexes" : 
+					[
+						13,
+						16
+					]
+				},
+				{
+					"build" : "Qt-Secret/src/mini-gmp/tests",
+					"jsonFile" : "directory-Qt-Secret.src.mini-gmp.tests-RelWithDebInfo-af1e12122b249e822a08.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "Qt-Secret/src/mini-gmp/tests",
+					"targetIndexes" : 
+					[
+						14,
+						15,
+						23,
+						26,
+						29
+					]
+				},
+				{
+					"build" : "Qt-Secret/src",
+					"jsonFile" : "directory-Qt-Secret.src-RelWithDebInfo-497011bec304288bba10.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "Qt-Secret/src",
+					"targetIndexes" : 
+					[
+						5,
+						12
+					]
+				},
+				{
+					"build" : "Qt-Secret/tests",
+					"jsonFile" : "directory-Qt-Secret.tests-RelWithDebInfo-8662607a68ca0cf10a8c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "Qt-Secret/tests",
+					"targetIndexes" : 
+					[
+						8,
+						9,
+						10,
+						11,
+						21,
+						22,
+						27,
+						28
+					]
+				},
+				{
+					"build" : "Qt-Secret/Qt-Secret-GUI",
+					"jsonFile" : "directory-Qt-Secret.Qt-Secret-GUI-RelWithDebInfo-466d99b96f6af0f60c15.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "Qt-Secret/Qt-Secret-GUI",
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "AES-KIJ",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						17
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						5,
+						6,
+						7
+					],
+					"name" : "Qt-Secret",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						18,
+						21,
+						22,
+						27,
+						28
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4
+					],
+					"name" : "QtBigint",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						4,
+						13,
+						14,
+						15,
+						16,
+						19,
+						20,
+						23,
+						24,
+						25,
+						26,
+						29
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "AES-KIJ::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-AES-KIJ-RelWithDebInfo-9881be4674180f28b801.json",
+					"name" : "AES-KIJ",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "AES-KIJ_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-AES-KIJ_autogen-RelWithDebInfo-912dd99a770178ef8d38.json",
+					"name" : "AES-KIJ_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-08e7d23455dc1239be55.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@4abf06259beec9d0a4c2",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-a94f900d3f5d9e1d81d1.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@45bb71c845b8630a2712",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-ea0dd0a49bfcfe7425c7.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "Qt-Secret::@d27b8ecd97718717dc37",
+					"jsonFile" : "target-Qt-Secret-RelWithDebInfo-ad406522259486621a31.json",
+					"name" : "Qt-Secret",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "Qt-Secret-GUI::@ddffae524c50d01abe50",
+					"jsonFile" : "target-Qt-Secret-GUI-RelWithDebInfo-90870431a7f1b329c5ea.json",
+					"name" : "Qt-Secret-GUI",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "Qt-Secret-GUI_autogen::@ddffae524c50d01abe50",
+					"jsonFile" : "target-Qt-Secret-GUI_autogen-RelWithDebInfo-95dbf9be001140d3d1a3.json",
+					"name" : "Qt-Secret-GUI_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Qt-SecretTest_AES::@4051c4e321833871d2bb",
+					"jsonFile" : "target-Qt-SecretTest_AES-RelWithDebInfo-7de98aaa13bd673edd07.json",
+					"name" : "Qt-SecretTest_AES",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Qt-SecretTest_AES_autogen::@4051c4e321833871d2bb",
+					"jsonFile" : "target-Qt-SecretTest_AES_autogen-RelWithDebInfo-f4ffe33ad87946b5efaa.json",
+					"name" : "Qt-SecretTest_AES_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Qt-SecretTest_RSA::@4051c4e321833871d2bb",
+					"jsonFile" : "target-Qt-SecretTest_RSA-RelWithDebInfo-7ba32a326bbf1f7420a7.json",
+					"name" : "Qt-SecretTest_RSA",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Qt-SecretTest_RSA_autogen::@4051c4e321833871d2bb",
+					"jsonFile" : "target-Qt-SecretTest_RSA_autogen-RelWithDebInfo-3e29f7ab51511eea163b.json",
+					"name" : "Qt-SecretTest_RSA_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "Qt-Secret_autogen::@d27b8ecd97718717dc37",
+					"jsonFile" : "target-Qt-Secret_autogen-RelWithDebInfo-ef5337d681ae01abcb3a.json",
+					"name" : "Qt-Secret_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "QtBigint::@97fc14b235efbb5a1def",
+					"jsonFile" : "target-QtBigint-RelWithDebInfo-6af5da7c8d43924b899c.json",
+					"name" : "QtBigint",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "QtBigintTest::@41cd30918b3defb1c60f",
+					"jsonFile" : "target-QtBigintTest-RelWithDebInfo-cd2c82f2be5cf8356c5e.json",
+					"name" : "QtBigintTest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "QtBigintTest_autogen::@41cd30918b3defb1c60f",
+					"jsonFile" : "target-QtBigintTest_autogen-RelWithDebInfo-6d2e9af85f9ce2183962.json",
+					"name" : "QtBigintTest_autogen",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "QtBigint_autogen::@97fc14b235efbb5a1def",
+					"jsonFile" : "target-QtBigint_autogen-RelWithDebInfo-21a4bb6e560dda345614.json",
+					"name" : "QtBigint_autogen",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-9503e477d829dd70547f.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ZERO_CHECK::@4abf06259beec9d0a4c2",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-9879e737d99f7c4e9020.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ZERO_CHECK::@45bb71c845b8630a2712",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-1a957880199c459531da.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "deploy::@45bb71c845b8630a2712",
+					"jsonFile" : "target-deploy-RelWithDebInfo-eafa081a2a47ff600d5c.json",
+					"name" : "deploy",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "deployTestQt-SecretAES::@4051c4e321833871d2bb",
+					"jsonFile" : "target-deployTestQt-SecretAES-RelWithDebInfo-20be5ea8d901030adddd.json",
+					"name" : "deployTestQt-SecretAES",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "deployTestQt-SecretRSA::@4051c4e321833871d2bb",
+					"jsonFile" : "target-deployTestQt-SecretRSA-RelWithDebInfo-185ac10240672fd4eaeb.json",
+					"name" : "deployTestQt-SecretRSA",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "deployTestQtBigint::@41cd30918b3defb1c60f",
+					"jsonFile" : "target-deployTestQtBigint-RelWithDebInfo-346c4a8ef2e651a6ce36.json",
+					"name" : "deployTestQtBigint",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "doc::@45bb71c845b8630a2712",
+					"jsonFile" : "target-doc-RelWithDebInfo-36ca25a05eede34691ff.json",
+					"name" : "doc",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "release::@45bb71c845b8630a2712",
+					"jsonFile" : "target-release-RelWithDebInfo-decb32ed68bc53bd8f6f.json",
+					"name" : "release",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "test::@41cd30918b3defb1c60f",
+					"jsonFile" : "target-test-RelWithDebInfo-0905601ddf027d0ced54.json",
+					"name" : "test",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "testQt-SecretAES::@4051c4e321833871d2bb",
+					"jsonFile" : "target-testQt-SecretAES-RelWithDebInfo-07a4b2e1af2b4a318aa5.json",
+					"name" : "testQt-SecretAES",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "testQt-SecretRSA::@4051c4e321833871d2bb",
+					"jsonFile" : "target-testQt-SecretRSA-RelWithDebInfo-4c600088e91c5f4eacc7.json",
+					"name" : "testQt-SecretRSA",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "testQtBigint::@41cd30918b3defb1c60f",
+					"jsonFile" : "target-testQtBigint-RelWithDebInfo-b03fac838670bb4629aa.json",
+					"name" : "testQtBigint",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/build-KIJProject-Qt_6_2_2_homebrew",
+		"source" : "/Users/gayuhkautaman/Documents/code/cpp/KIJProject"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,68 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"Qt-Secret/src/mini-gmp/tests/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "QtBigint::@97fc14b235efbb5a1def"
+		},
+		{
+			"id" : "ZERO_CHECK::@45bb71c845b8630a2712"
+		}
+	],
+	"id" : "QtBigintTest_autogen::@41cd30918b3defb1c60f",
+	"isGeneratorProvided" : true,
+	"name" : "QtBigintTest_autogen",
+	"paths" : 
+	{
+		"build" : "Qt-Secret/src/mini-gmp/tests",
+		"source" : "Qt-Secret/src/mini-gmp/tests"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests/CMakeFiles/QtBigintTest_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests/CMakeFiles/QtBigintTest_autogen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

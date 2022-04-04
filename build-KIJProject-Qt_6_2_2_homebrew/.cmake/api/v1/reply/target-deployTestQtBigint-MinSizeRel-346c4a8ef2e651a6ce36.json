@@ -1,0 +1,80 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"ADD_CUSTOM_TARGET",
+			"addTests"
+		],
+		"files" : 
+		[
+			"Qt-Secret/src/mini-gmp/CMake/QuasarAppCITargets.cmake",
+			"Qt-Secret/src/mini-gmp/tests/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 192,
+				"parent" : 1
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "ZERO_CHECK::@45bb71c845b8630a2712"
+		}
+	],
+	"id" : "deployTestQtBigint::@41cd30918b3defb1c60f",
+	"name" : "deployTestQtBigint",
+	"paths" : 
+	{
+		"build" : "Qt-Secret/src/mini-gmp/tests",
+		"source" : "Qt-Secret/src/mini-gmp/tests"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests/CMakeFiles/deployTestQtBigint",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build-KIJProject-Qt_6_2_2_homebrew/Qt-Secret/src/mini-gmp/tests/CMakeFiles/deployTestQtBigint.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}
