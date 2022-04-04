@@ -15,6 +15,8 @@ class MainWindow : public QMainWindow
     Q_OBJECT
 
 public:
+    QByteArray pubKey,privateKey,encPassword;
+    vector<unsigned char*> tmpKey;
     explicit MainWindow(QWidget *parent = 0);
     QString fileName;
     ~MainWindow();
@@ -22,8 +24,6 @@ public:
 public slots:
 //    void encryptImage(QString);
 private:
-
-
     Ui::MainWindow *ui;
     QLabel *imageLabel;
     QString filePath;

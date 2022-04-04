@@ -419,23 +419,6 @@ unsigned char *AES::VectorToArray(std::vector<unsigned char> a) {
   return a.data();
 }
 
-std::vector<unsigned char> AES::EncryptECB(std::vector<unsigned char> in,
-                                           std::vector<unsigned char> key) {
-  unsigned char *out = EncryptECB(VectorToArray(in), (unsigned int)in.size(),
-                                  VectorToArray(key));
-  std::vector<unsigned char> v = ArrayToVector(out, in.size());
-  delete[] out;
-  return v;
-}
-
-std::vector<unsigned char> AES::DecryptECB(std::vector<unsigned char> in,
-                                           std::vector<unsigned char> key) {
-  unsigned char *out = DecryptECB(VectorToArray(in), (unsigned int)in.size(),
-                                  VectorToArray(key));
-  std::vector<unsigned char> v = ArrayToVector(out, (unsigned int)in.size());
-  delete[] out;
-  return v;
-}
 
 std::vector<unsigned char> AES::EncryptCBC(std::vector<unsigned char> in,
                                            std::vector<unsigned char> key,
@@ -457,25 +440,6 @@ std::vector<unsigned char> AES::DecryptCBC(std::vector<unsigned char> in,
   return v;
 }
 
-std::vector<unsigned char> AES::EncryptCFB(std::vector<unsigned char> in,
-                                           std::vector<unsigned char> key,
-                                           std::vector<unsigned char> iv) {
-  unsigned char *out = EncryptCFB(VectorToArray(in), (unsigned int)in.size(),
-                                  VectorToArray(key), VectorToArray(iv));
-  std::vector<unsigned char> v = ArrayToVector(out, in.size());
-  delete[] out;
-  return v;
-}
-
-std::vector<unsigned char> AES::DecryptCFB(std::vector<unsigned char> in,
-                                           std::vector<unsigned char> key,
-                                           std::vector<unsigned char> iv) {
-  unsigned char *out = DecryptCFB(VectorToArray(in), (unsigned int)in.size(),
-                                  VectorToArray(key), VectorToArray(iv));
-  std::vector<unsigned char> v = ArrayToVector(out, (unsigned int)in.size());
-  delete[] out;
-  return v;
-}
 
 void AES::write(vector<unsigned char> v,string fileName){
     ofstream file;
@@ -485,9 +449,9 @@ void AES::write(vector<unsigned char> v,string fileName){
     }
     file.close();
 }
-
-void AES::executeAES(std::string filePath){
+void AES::executeAES(std::string filePath,string password){
     const unsigned int BLOCK_BYTES_LENGTH = 16 * sizeof(unsigned char);
+    megabytesCount = filesize(filePath.c_str());
     Bitmap image;
      std::vector <std::vector <Pixel> > bmp;
      Pixel rgb;
@@ -549,10 +513,20 @@ void AES::executeAES(std::string filePath){
         std::vector<unsigned char> iv = {0xff, 0xff, 0xff, 0xff, 0xff, 0xff,
                                           0xff, 0xff, 0xff, 0xff, 0xff, 0xff,
                                           0xff, 0xff, 0xff, 0xff};
-         std::vector<unsigned char> key = {
-             0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x09, 0x0a,
-             0x0b, 0x0c, 0x0d, 0x0e, 0x0f, 0x10, 0x11, 0x12, 0x13, 0x14, 0x15,
-             0x16, 0x17, 0x18, 0x19, 0x1a, 0x1b, 0x1c, 0x1d, 0x1e, 0x1f};
+//        set password
+        vector <unsigned char> key(password.begin(),password.end());
+        std::vector<unsigned char> key2 = {
+                     0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x09, 0x0a,
+                     0x0b, 0x0c, 0x0d, 0x0e, 0x0f, 0x10, 0x11, 0x12, 0x13, 0x14, 0x15,
+                     0x16, 0x17, 0x18, 0x19, 0x1a, 0x1b, 0x1c, 0x1d, 0x1e, 0x1f};
+
+        if (key.size()<32){
+            int remain = 32 - key.size();
+            for (int i=0;i<remain;i++){
+                key.push_back(i);
+            }
+        }
+        qDebug()<<"Ekey"<<key;
         AES aes(AESKeyLength::AES_256);
         qDebug()<<"Start Timer";
         unsigned long start = getMicroseconds();
@@ -561,9 +535,9 @@ void AES::executeAES(std::string filePath){
         unsigned long delta = getMicroseconds() - start;
         vector<unsigned char> encryptedGreen = aes.EncryptCBC(greenPaddedMessage,key,iv);
         vector<unsigned char> encryptedBlue = aes.EncryptCBC(bluePaddedMessage,key,iv);
-        qDebug()<<"encrypted";
-
         speed = (double)megabytesCount / delta * MICROSECONDS;
+        speed = round(speed*100)/100;
+        qDebug()<<"encrypted";
         qDebug()<<"Constructing to BMP";
         int tmp = 0;
         for(int i =1 ; i<= row-1;i++){
@@ -584,9 +558,16 @@ unsigned long AES::getMicroseconds(){
   gettimeofday(&tv,NULL);
   return MICROSECONDS * tv.tv_sec + tv.tv_usec;
 }
+std::ifstream::pos_type AES::filesize(const char* filename)
+{
+    std::ifstream in(filename, std::ifstream::ate | std::ifstream::binary);
+    return in.tellg();
+}
 
-void AES::executeDecryptAES(string filePath){
-    Bitmap image;
+
+void AES::executeDecryptAES(string filePath,string password){
+     megabytesCount = filesize(filePath.c_str());
+     Bitmap image;
      std::vector <std::vector <Pixel> > bmp;
      Pixel rgb;
      image.open(filePath);
@@ -645,10 +626,13 @@ void AES::executeDecryptAES(string filePath){
      std::vector<unsigned char> iv = {0xff, 0xff, 0xff, 0xff, 0xff, 0xff,
                                        0xff, 0xff, 0xff, 0xff, 0xff, 0xff,
                                        0xff, 0xff, 0xff, 0xff};
-      std::vector<unsigned char> key = {
-          0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x09, 0x0a,
-          0x0b, 0x0c, 0x0d, 0x0e, 0x0f, 0x10, 0x11, 0x12, 0x13, 0x14, 0x15,
-          0x16, 0x17, 0x18, 0x19, 0x1a, 0x1b, 0x1c, 0x1d, 0x1e, 0x1f};
+     std::vector<unsigned char> key(password.begin(),password.end());
+     if (key.size()<32){
+         int remain = 32 - key.size();
+         for (int i=0;i<remain;i++){
+             key.push_back(i);
+         }
+     }
      AES aes(AESKeyLength::AES_256);
      qDebug()<<"Start Decrypt Timer";
      unsigned long start = getMicroseconds();
@@ -659,6 +643,7 @@ void AES::executeDecryptAES(string filePath){
      vector<unsigned char> encryptedBlue = aes.DecryptCBC(bluePaddedMessage,key,iv);
      int tmp = 0;
      speed = (double)megabytesCount / delta * MICROSECONDS;
+     speed = ceil(speed*100)/100;
      qDebug()<<"Constructing to BMP";
      for(int i =1 ; i<= row-1;i++){
          for(int j=1 ; j<=column-1;j++){

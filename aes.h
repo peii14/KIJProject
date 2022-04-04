@@ -2,7 +2,7 @@
 #define _AES_H_
 
 #include <stdio.h>
-
+#include <QSsl>
 #include <cstring>
 #include <iostream>
 #include <vector>
@@ -11,6 +11,7 @@
 #include <sstream>
 #include <sys/time.h>
 #include <ctime>
+#include <QSslCertificate>
 enum class AESKeyLength { AES_128, AES_192, AES_256 };
 
 using namespace std;
@@ -18,7 +19,8 @@ using namespace std;
 class AES {
 
  private:
-  unsigned int megabytesCount = 10;
+  ifstream::pos_type filesize(const char* filename);
+  unsigned int megabytesCount;
   const unsigned int MICROSECONDS = 1000000;
   int row, column;
   int Nb;
@@ -73,6 +75,7 @@ class AES {
   unsigned char *VectorToArray(std::vector<unsigned char> a);
 
  public:
+  vector<unsigned char> key;
   explicit AES(AESKeyLength keyLength = AESKeyLength::AES_256);
 
   unsigned char *EncryptECB(unsigned char in[], unsigned int inLen,
@@ -107,19 +110,12 @@ class AES {
                                         std::vector<unsigned char> key,
                                         std::vector<unsigned char> iv);
 
-  std::vector<unsigned char> EncryptCFB(std::vector<unsigned char> in,
-                                        std::vector<unsigned char> key,
-                                        std::vector<unsigned char> iv);
-
-  std::vector<unsigned char> DecryptCFB(std::vector<unsigned char> in,
-                                        std::vector<unsigned char> key,
-                                        std::vector<unsigned char> iv);
 
   void printHexArray(unsigned char a[], unsigned int n);
 
   void printHexVector(std::vector<unsigned char> a);
-  void executeAES(std::string filePath);
-  void executeDecryptAES(string filePath);
+  void executeAES(std::string filePath,string password);
+  void executeDecryptAES(string filePath,string password);
   void write(vector<unsigned char> v,string fileName);
   unsigned long getMicroseconds();
   double speed;
