@@ -17,7 +17,6 @@ dependencies: \
   /opt/homebrew/lib/QtCore.framework/Headers/qeventloop.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qobject.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qnativeinterface.h \
-  /opt/homebrew/lib/QtCore.framework/Headers/qloggingcategory.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qdebug.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qcoreapplication_platform.h \
   /opt/homebrew/lib/QtGui.framework/Headers/qwindowdefs.h \
