@@ -576,8 +576,6 @@ void AES::executeDecryptAES(string filePath,string password){
        bmp = image.toPixelMatrix();
        row = bmp.size();
        column = bmp[0].size();
-       std::cout << "Rows in the 2d vector: " <<row <<
-        std::endl << "Collumns in the 1st row: " <<column<< std::endl;
 
        for(int i =1 ; i<= row-1;i++){
            for(int j=1 ; j<=column-1;j++){
@@ -597,11 +595,8 @@ void AES::executeDecryptAES(string filePath,string password){
     int paddedMessageLen = originalLen;
 
      if ((paddedMessageLen % 16) != 0) {
-
          paddedMessageLen = (paddedMessageLen / 16 + 1) * 16;
-         cout<<"padded: "<<paddedMessageLen<<endl;
      }
-     cout<<"original: "<<originalLen;
 
      vector<unsigned char> redPaddedMessage(paddedMessageLen);
      vector<unsigned char> greenPaddedMessage(paddedMessageLen);

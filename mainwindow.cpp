@@ -42,7 +42,6 @@ void MainWindow::senderRoleClicked(){
         pubKey.append(line.toUtf8());
         limit++;
     }
-
     file.close();
     filePath = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/dams.bmp";
     QPixmap pix1(filePath);
@@ -55,28 +54,29 @@ void MainWindow::senderRoleClicked(){
     ui->rightLabel->setText("Encrypted");
 
 }
+
+
 void MainWindow::recieverRoleClicked(){
     filePath = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/encrypted.bmp";
     QPixmap pix(filePath);
     ui->label_pic->setPixmap(pix.scaled(QSize(300,300), Qt::KeepAspectRatio));
-
     ui->CertStatus->setText("Public Key is available");
-    QFile file("/Users/gayuhkautaman/Documents/code/cpp/KIJProject/KIJ-openssl/private_key.pem");
-    if(!file.open(QIODevice::ReadOnly)) {
+    QString certPrivate = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/KIJ-openssl/private_key.pem";
+    QFile file(certPrivate);
+    if(!QFileInfo::exists(certPrivate)) {
+        ui->CertStatus->setText("Private Key does not exist");
        qDebug()<<"private key not found";
-       ui->CertStatus->setText("Privaet Key does not exist");
        return;
     }
    QTextStream in(&file);
    QString line;
    int limit = 0;
-   QStringList fields;
     while(!in.atEnd()) {
         line = in.readLine();
-        fields = line.split(",");
         privateKey.append(line.toUtf8());
         limit++;
     }
+
     QFile ENCfile("/Users/gayuhkautaman/Documents/code/cpp/KIJProject/encrypted_file.txt");
     if(!ENCfile.open(QIODevice::ReadOnly)) {
        qDebug()<<"encrypted value not found";
@@ -108,8 +108,7 @@ void MainWindow::actionBtnClicked(){
             qDebug()<<"please input password to encrypt";
             return;
         }
-        qDebug()<<"Password"<<password;
-        rsa.EncryptRSA(pubKey,password);
+        rsa.EncryptRSA(pubKey,password.toUtf8());
         AES aes;
         aes.executeAES(filePath.toStdString().c_str(),password.toStdString().c_str());
         QString filePathEncrypted = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/encrypted.bmp";
@@ -120,7 +119,6 @@ void MainWindow::actionBtnClicked(){
 //        Decrypt
 //        QString  password = rsa.DecryptRSA(privateKey,encPassword);
         QString password ="password";
-        qDebug()<<"Le password "<<password;
         AES aes;
         aes.executeDecryptAES("/Users/gayuhkautaman/Documents/code/cpp/KIJProject/encrypted.bmp",password.toStdString().c_str());
 
