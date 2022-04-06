@@ -60,7 +60,7 @@ void MainWindow::recieverRoleClicked(){
     filePath = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/encrypted.bmp";
     QPixmap pix(filePath);
     ui->label_pic->setPixmap(pix.scaled(QSize(300,300), Qt::KeepAspectRatio));
-    ui->CertStatus->setText("Public Key is available");
+    ui->CertStatus->setText("Private Key is available");
     QString certPrivate = "/Users/gayuhkautaman/Documents/code/cpp/KIJProject/KIJ-openssl/private_key.pem";
     QFile file(certPrivate);
     if(!QFileInfo::exists(certPrivate)) {
@@ -117,8 +117,8 @@ void MainWindow::actionBtnClicked(){
         ui->performanceNON->setText(QString::number(aes.speed,'g',2).append(" Mb/s"));
     }else{
 //        Decrypt
-//        QString  password = rsa.DecryptRSA(privateKey,encPassword);
-        QString password ="password";
+        password = rsa.DecryptRSA(privateKey,encPassword);
+
         AES aes;
         aes.executeDecryptAES("/Users/gayuhkautaman/Documents/code/cpp/KIJProject/encrypted.bmp",password.toStdString().c_str());
 

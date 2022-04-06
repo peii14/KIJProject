@@ -24,6 +24,7 @@ public:
 public slots:
 //    void encryptImage(QString);
 private:
+    QString password;
     Ui::MainWindow *ui;
     QLabel *imageLabel;
     QString filePath;
