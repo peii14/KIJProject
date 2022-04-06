@@ -16,6 +16,9 @@ We choose the CBC mode of operation for this project because it is the easiest t
 ### Encrypted Image
 ![alt text](https://github.com/peii14/KIJProject/blob/main/img/encrypted.bmp)
 
+### Encrypted Image
+![alt text](https://github.com/peii14/KIJProject/blob/main/KIJ-openssl/decryptedOpenssl.bmp)
+
 
 ## Performance
 From our observation, the encryption from the library implementation is noticeably faster than our manual encryption implementation by 31.91Mb/s. Our hypothesis are based on what Vicki Myron, author of Dewey, highlighted. “Libraries are an area of focus in the optimization process. Libraries provide the primitives from which programs are built up. Library functions and classes are often used at the bottom of nested loops, and are thus often hot.” .On the other hand, our own library has nothing compare to well established library such as openssl in terms of performance yet they share same functionality
