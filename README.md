@@ -16,6 +16,12 @@ We choose the CBC mode of operation for this project because it is the easiest t
 ### Encrypted Image
 ![alt text](https://github.com/peii14/KIJProject/blob/main/img/encrypted.bmp)
 
+### Decrypt Image without openssl
+![alt text](https://github.com/peii14/KIJProject/blob/main/img/decryptNon.png)
+
+##Decrypt Image with openssl
+![alt text](https://github.com/peii14/KIJProject/blob/main/img/decryptOpenssl.png)
+
 ### Decrypted Image
 ![alt text](https://github.com/peii14/KIJProject/blob/main/KIJ-openssl/decryptedOpenssl.bmp)
 
